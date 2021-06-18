@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed !important;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  z-index: 99999;
+}
+@media (max-width: 991px) {
+  .navbar {
+    background-color: var(--surface);
+  }
+}
+.navbar img {
+  height: 80px;
+  width: 180px;
+  object-fit: contain;
+  object-position: left;
+  padding: 10px;
+}
+.navbar .nav-item {
+  text-transform: uppercase;
+  font-family: "babyBlue";
+  margin: 0 20px;
+}

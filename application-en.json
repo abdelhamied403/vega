@@ -1,0 +1,111 @@
+{
+    "general": {
+        "send": "send",
+        "addEmail": "add your email",
+        "buy": "Buy Now",
+        "message": "Message",
+        "name": "Name",
+        "email": "Email",
+        "image22": "images/Group 22 -up.png",
+        "loadMore": "Load more"
+    },
+    "nav": {
+        "home": "Home",
+        "printer": "3d printers",
+        "about": "about",
+        "gallery": "gallery",
+        "contact": "contact us",
+        "lang": "ع"
+    },
+    "home": {
+        "title": "Experience the world of Cosplay",
+        "subscribe": "Subscribe to our newsletter",
+        "services": "services"
+    },
+    "services": {
+        "title": "Our services",
+        "book": "Book us",
+        "hosting": {
+            "title": "hosting",
+            "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
+        },
+        "judging": {
+            "title": "Judging",
+            "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
+        },
+        "organizing": {
+            "title": "Organizing",
+            "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
+        },
+        "museum": {
+            "title": "Museum",
+            "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
+        }
+    },
+    "footer": {
+        "hosting": "hosting",
+        "judging": "judging",
+        "organizing": "organizing",
+        "museum": "museum",
+        "services": "Our services",
+        "printer": "3D printer",
+        "printerHd": "heigh precision print",
+        "integrated": "integrated structure",
+        "rapid": "rapid heating up",
+        "about": "about us",
+        "whoWeAre": "Who we are",
+        "vision": "vision",
+        "mission": "mission",
+        "contact": "contact us",
+        "message": "message us"
+    },
+    "printer": {
+        "title": "tHE ENDER 3",
+        "subTitle": "3D PRINTER",
+        "description": "smart, safe, affordable designed just for you",
+        "info": {
+            "description": "friendly, affordable 3d printer designed to help you invent your ideas",
+            "header": "Designed for you"
+        }
+    },
+    "project": {
+        "print": {
+            "title": "high Precision Print",
+            "description": "with its advanced extruder technology, Ender-3 will Create accurate high-end quality models"
+        },
+        "structure": {
+            "title": "Integrated Structure",
+            "description": "Simple design, portable mini home factory to suit your every day needs"
+        },
+        "heating": {
+            "title": "Rapid Heating Up",
+            "description": "Only takes 5 minutes and enjoy the process to create any 3D print"
+        }
+    },
+    "about": {
+        "title": "about us",
+        "header": "Who we are",
+        "description": "Will strive to achieve a prominent presence in entertainment arenas of all sectors To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people."
+    },
+    "vision": {
+        "header": "Vision",
+        "description": "To become the largest and widest cultural organizaion in the world, to suit the necessities of life and the aspirations of residents."
+    },
+    "mission": {
+        "header": "Mission",
+        "description": "Will strive to achieve a prominent presence in entertainment arenas of all sectors, To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people."
+    },
+    "gallery": {
+        "title": "Gallery"
+    },
+    "contact": {
+        "title": "Contact us",
+        "message": "message us",
+        "address": "Kingdom of Saudi Arabia Riyadh-Olaya District Behind Sulaiman Alhabib Alawsat Street",
+        "floor": "P.O. Box: 305303-11361 78 Str. Floor No. 1-Office No.5",
+        "phone": "Phone: +966-11-4333345",
+        "mobile": "Mob: +966-50-3233335",
+        "cos": "VegaCosplay",
+        "website": "www.vega.com.sa"
+    }
+}

@@ -1,0 +1,99 @@
+/* ********************************************************** */
+section.home {
+  position: relative;
+  min-height: 100vh;
+}
+section.home .body {
+  padding-top: 100px;
+  position: relative;
+  z-index: 3;
+}
+section.home .body button {
+  max-width: 110px;
+}
+section.home .body .content {
+  min-height: calc(100vh - 100px);
+}
+section.home .body .home-person {
+  height: calc(90vh - 100px);
+  object-fit: cover;
+}
+section.home .body h1 {
+  color: var(--primary);
+  font-family: "a-space";
+  text-transform: uppercase;
+  font-size: 24px;
+}
+section.home .body h4 {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  section.home .body h1 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 1400px) {
+  section.home .body h1 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 768px) {
+  section.home .body h4 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  section.home .body h4 {
+    font-size: 60px;
+  }
+}
+section.home .social {
+  position: absolute;
+  bottom: 10%;
+  left: var(--bs-gutter-x, 0.75rem);
+  z-index: 4;
+}
+section.home .social a {
+  margin: 10px;
+}
+
+section.home .social img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+section.contact {
+  position: relative;
+}
+section.contact .body {
+  z-index: 4;
+  position: relative;
+  padding: 100px 0;
+}
+section.contact .body form {
+  margin-bottom: 10px;
+}
+section.contact .body form > * {
+  margin-bottom: 10px;
+}
+
+section.contact .body h3 {
+  font-weight: bold;
+  /* font-size: 36px; */
+}
+
+section.contact .body p {
+  font-size: 20px;
+}
+section.contact .body img {
+  width: 25px;
+  height: auto;
+  object-fit: contain;
+}
+
+section.contact .body .item > * {
+  margin-right: 10px;
+  margin-bottom: 0;
+}

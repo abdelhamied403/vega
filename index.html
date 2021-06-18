@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Vega</title>
+</head>
+<body>
+    <!-- <p class="test" rel="localize[title]"></p> -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+              <img src="images/Group 75.svg" alt="Vega">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a rel="localize[nav.home]" class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.printer]" class="nav-link" href="/printer.html">Printer</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.about]" class="nav-link" href="/about-us.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.gallery]" class="nav-link" href="/gallery.html">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.contact]" class="nav-link" href="/contact-us.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.lang]" class="nav-link" onclick="toggleLang()">ع</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home">
+          <div class="background">
+            <img class="background-img" src="images/Group 139.png">
+          </div>
+          <div class="body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-none d-md-block">
+                        <img class="home-person" src="images/person-1.png" alt="person">
+                    </div>
+                    <div class="content col-md-6 col-sm-12 d-flex align-items-center">
+                      <div class="d-flex flex-column">
+                        <h1 rel="localize[home.title]">Experience the world of Cosplay</h1>
+                        <form class="text-uppercase" id="form-subscribe">
+                            <p rel="localize[home.subscribe]">Subscribe to our newsletter</p>
+                            <div class="input-group mb-3">
+                                <input rel="localize[general.addEmail]" value="email" type="email" name="email" class="form-control">
+                                <div class="input-group-append">
+                                  <button id="subscribe-button" rel="localize[general.send]" value="send" class="btn btn-primary" type="button">Send</button>
+                                </div>
+                              </div>
+                        </form>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="social d-flex flex-md-column">
+              <a href="https://www.facebook.com/saud.hazzani" target="_blank">
+                <img src="images/facebook (9).svg" alt="facebook">
+              </a>
+              <a href="https://twitter.com/vegacosplay" target="_blank">
+                <img src="images/twitter (8).svg" alt="twitter">
+              </a>
+              <a href="https://www.instagram.com/vegacosplay/" target="_blank">
+                <img src="images/instagram (9).svg" alt="instagram">
+              </a>
+          </div>
+          <div class="gotoNext" onclick="document.getElementById('services').scrollIntoView()">
+            <h5 rel="localize[home.services]">services</h5>
+            <img src="images/down-arrow.png" alt="arrowDown">
+          </div>
+      </section>
+      <section id="services" class="services">
+        <div class="background">
+          <img class="background-img" src="images/Group 137.png">
+        </div>
+        <div class="container pd-t-100">
+          <div class="body">
+            <div class="row">
+              <h1 rel="localize[services.title]" class="text-uppercase">OUR SERVICES</h1>
+            </div>
+            <div class="row py-4">
+              <div class="col-lg-3 col-md-6 col-sm-12" id="hosting">
+                <div class="service">
+                  <div class="header">
+                    <img class="main" src="images/spotlight-1.svg" alt="hosting">
+                    <img class="placeholder" src="images/spotlight.svg" alt="hosting">
+
+                    <h3 rel="localize[services.hosting.title]" class="text-uppercase">hosting</h3>
+                  </div>
+                  <div class="body">
+                    <p rel="localize[services.hosting.body]">A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event.
+                    </p>
+                  </div>
+                  <div class="footer">
+                    <a  class="btn" rel="localize[services.book]" href="https://www.facebook.com/saud.hazzani">Book us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12" id="judging">
+                <div class="service">
+                  <div class="header">
+                    <img class="main" src="images/painting-1.svg" alt="judging">
+                    <img class="placeholder" src="images/painting.svg" alt="judging">
+                    <h3 rel="localize[services.judging.title]" class="text-uppercase">JUDGING</h3>
+                  </div>
+                  <div class="body">
+                    <p rel="localize[services.judging.body]">
+                      A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event.
+                    </p>
+                  </div>
+                  <div class="footer">
+                    <a  class="btn" rel="localize[services.book]" href="https://www.facebook.com/saud.hazzani">Book us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12" id="organizing">
+                <div class="service">
+                  <div class="header">
+                    <img class="main" src="images/structure-1.svg" alt="organizing">
+                    <img class="placeholder" src="images/structure.svg" alt="organizing">
+                    <h3 rel="localize[services.organizing.title]" class="text-uppercase">organizing</h3>
+                  </div>
+                  <div class="body">
+                    <p rel="localize[services.organizing.body]">
+                      A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event.
+                    </p>
+                  </div>
+                  <div class="footer">
+                    <a  class="btn" rel="localize[services.book]" href="https://www.facebook.com/saud.hazzani">Book us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12" id="museum">
+                <div class="service">
+                  <div class="header">
+                    <img class="main" src="images/painting-1.svg" alt="museum">
+                    <img class="placeholder" src="images/painting.svg" alt="museum">
+                    <h3 rel="localize[services.museum.title]" class="text-uppercase">museum</h3>
+                  </div>
+                  <div class="body">
+                    <p rel="localize[services.museum.body]">A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event.
+                    </p>
+                  </div>
+                  <div class="footer">
+                    <a  class="btn" rel="localize[services.book]" href="https://www.facebook.com/saud.hazzani">Book us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="background">
+          <img class="background-img" src="images/Mask Group 9.svg">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <img src="images/Group 75.svg" alt="vega">
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.services]" class="header" href="/index.html#services">services</a>
+                <a rel="localize[footer.hosting]"  href="/index.html#hosting">hosting</a>
+                <a rel="localize[footer.judging]"  href="/index.html#judging">judging</a>
+                <a rel="localize[footer.organizing]"  href="/index.html#organizing">organizing</a>
+                <a rel="localize[footer.museum]"  href="/index.html#museum">museum</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.printer]" class="header" href="/printer.html">printer</a>
+                <a rel="localize[footer.printerHd]"  href="/printer.html#print">print</a>
+                <a rel="localize[footer.integrated]"  href="/printer.html#structure">integrated structure</a>
+                <a rel="localize[footer.rapid]"  href="/printer.html#heating">rapid heating up</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.about]" class="header" href="/about-us.html">about us</a>
+                <a rel="localize[footer.whoWeAre]"  href="/about-us.html#who">who we are</a>
+                <a rel="localize[footer.vision]"  href="/about-us.html#vision">vision</a>
+                <a rel="localize[footer.mission]" href="/about-us.html#mission">mission</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.contact]" class="header" href="/contact-us.html">contact</a>
+                <a rel="localize[footer.message]" href="/contact-us.html#message">message</a>
+                <div class="social d-flex">
+                  <a href="https://www.facebook.com/saud.hazzani" target="_blank">
+                    <img src="images/facebook (9).svg" alt="facebook">
+                  </a>
+                  <a href="https://twitter.com/vegacosplay" target="_blank">
+                    <img src="images/twitter (8).svg" alt="twitter">
+                  </a>
+                  <a href="https://www.instagram.com/vegacosplay/" target="_blank">
+                    <img src="images/instagram (9).svg" alt="instagram">
+                  </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/jquery/js/jquery.min.js"></script>
+    <script src="plugins/jquery/js/jquery.localize.min.js"></script>
+    <script src="main.js"></script>
+    <script src="javascript/contact.js"></script>
+</body>
+</html>

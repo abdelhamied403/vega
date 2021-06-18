@@ -1,0 +1,128 @@
+/* ********************************************************** */
+section.home {
+  position: relative;
+  min-height: 100vh;
+}
+section.home .body {
+  padding-top: 100px;
+  position: relative;
+  z-index: 3;
+}
+section.home .body button {
+  max-width: 110px;
+}
+section.home .body .content {
+  min-height: calc(100vh - 100px);
+}
+section.home .body .home-person {
+  height: calc(90vh - 100px);
+  object-fit: cover;
+}
+section.home .body h1 {
+  color: var(--primary);
+  font-family: "a-space";
+  text-transform: uppercase;
+  font-size: 24px;
+}
+section.home .body h4 {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  section.home .body h1 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 1400px) {
+  section.home .body h1 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 768px) {
+  section.home .body h4 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  section.home .body h4 {
+    font-size: 60px;
+  }
+}
+section.home .social {
+  position: absolute;
+  bottom: 10%;
+  left: var(--bs-gutter-x, 0.75rem);
+  z-index: 4;
+}
+section.home .social a {
+  margin: 10px;
+}
+
+section.home .social img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+section.info {
+  position: relative;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+}
+
+section.info .content {
+  position: relative;
+  z-index: 4;
+}
+
+section.info .content p {
+  font-weight: bold;
+  margin: 0;
+}
+section.info .content h1 {
+  color: var(--primary);
+  font-weight: bold;
+  font-family: "a-space";
+}
+
+section.project {
+  padding: 50px 0;
+  position: relative;
+}
+
+section.project .content {
+  z-index: 4;
+  position: relative;
+}
+
+section.project .item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+section.project h2 {
+  font-family: "a-space";
+  font-size: 24px;
+  color: var(--primary);
+}
+section.project p {
+  font-family: "adam";
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  section.project h2 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 1400px) {
+  section.project h2 {
+    font-size: 72px;
+  }
+}

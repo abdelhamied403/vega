@@ -1,0 +1,31 @@
+footer {
+  position: relative;
+  min-height: 300px;
+  padding: 50px 0;
+}
+footer .background-img {
+  object-position: right bottom;
+}
+footer a {
+  color: var(--onSurface2);
+  text-transform: uppercase;
+  font-size: 12px;
+  z-index: 9;
+  font-family: "a-space";
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+footer a:hover {
+  color: var(--onSurface2);
+  text-decoration: underline;
+}
+footer .header,
+footer .header:hover {
+  color: var(--primary);
+  margin-top: 20px;
+}
+
+footer .social > * {
+  margin-right: 25px;
+}
