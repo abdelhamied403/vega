@@ -82,11 +82,14 @@ section.info .content p {
   margin: 0;
 }
 section.info .content h1 {
-  color: var(--mark);
-  font-weight: bold;
-  font-family: "a-space";
+  font-family: "babyBlue";
+  font-size: 100px;
 }
 
 section.info.vision .content h1 {
   color: var(--primary);
 }
+
+section.info .content.who-we-are h1{
+  color: #FCAC6A;
+  }

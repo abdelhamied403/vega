@@ -16,7 +16,7 @@ section.home .body .content {
 }
 section.home .body .home-person {
   height: calc(90vh - 100px);
-  object-fit: cover;
+  object-fit: contain;
 }
 section.home .body h1 {
   color: var(--primary);
@@ -37,17 +37,17 @@ section.home .body h4 {
     font-size: 72px;
   }
 }
-
-@media (min-width: 768px) {
-  section.home .body h4 {
-    font-size: 30px;
-  }
-}
 @media (min-width: 1400px) {
   section.home .body h4 {
     font-size: 60px;
   }
 }
+@media (min-width: 768px) {
+  section.home .body h4 {
+    font-size: 30px;
+  }
+}
+
 section.home .social {
   position: absolute;
   bottom: 10%;

@@ -1,4 +1,5 @@
 /* ********************************************************** */
+
 section.home {
   position: relative;
   min-height: 100vh;
@@ -33,6 +34,12 @@ section.home .body h1 {
   }
 }
 
+.input-group-append .input-group-append{
+  padding: 15px;
+  height: auto !important;
+  line-height: 1 !important;
+}
+
 section.home .social {
   position: absolute;
   bottom: 10%;
@@ -63,18 +70,17 @@ section.home .gotoNext {
   flex-flow: column;
   z-index: 4;
   cursor: pointer;
+  margin-bottom: 16px;
 }
 section.home .gotoNext h5 {
   font-family: "adam-bold";
-  text-decoration: underline;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--onSurface2);
 }
 section.home .gotoNext img {
   width: 25px;
-  height: 25px;
   object-fit: contain;
 }
 
@@ -116,36 +122,77 @@ section.services .service {
   position: relative;
   height: 500px;
   margin-bottom: 20px;
+  background-color: black;
 }
+
 section.services .service .header,
 section.services .service .body,
 section.services .service .footer {
   z-index: 2;
   position: relative;
 }
-section.services .service::after {
-  content: "";
-  background-color: var(--surface);
-  opacity: 0.5;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-section.services .service::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background: url("../images/Group\ 55.png");
+
+/*  */
+
+section.services .hosting .service::before{
+  background-image:  url('../images/Group\ 55.png');
+  }
+  
+  section.services .hosting:hover .service::before{    
+    opacity: 0.5;
+  }
+
+/*  */
+
+  section.services .judging .service::before{
+    background-image:  url('../images/Judging.JPG');
+    opacity: 0.7;
+    }
+    
+    section.services .judging:hover .service::before{    
+      opacity: 0.4;
+    }
+
+/*  */
+
+    section.services .organizing .service::before{
+      background-image:  url('../images/organizing.png');
+      }
+      
+      section.services .organizing:hover .service::before{    
+        opacity: 0.5;
+      }
+
+/*  */
+
+    section.services .museum .service::before{
+      background-image:  url('../images/Group\ 55.png');
+      }
+      
+      section.services .museum:hover .service::before{    
+        opacity: 0.5;
+      }
+      
+/*  */
+
+section.services .service::before{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+section.services .service::before{
+  transition: all 0.5s ease;
+  content: "";
+  position: absolute;
+  opacity: 0.95;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/*  */
 
 section.services .service p {
   line-height: 1.1;
