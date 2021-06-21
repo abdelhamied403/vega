@@ -166,7 +166,8 @@ section.services .hosting .service::before{
 /*  */
 
     section.services .museum .service::before{
-      background-image:  url('../images/Group\ 55.png');
+      background-image:  url('../images/museum.jpeg');
+      background-position-x: right;
       }
       
       section.services .museum:hover .service::before{    

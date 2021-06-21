@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/printer.css">
+    <title>Vega</title>
+</head>
+<body class="buy-now">
+    <!-- <p class="test" rel="localize[title]"></p> -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/Group 75.svg" alt="Vega">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a rel="localize[nav.home]" class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.printer]" class="nav-link active" href="printer.html">Printer</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.about]" class="nav-link" href="about-us.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.gallery]" class="nav-link" href="gallery.html">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.contact]" class="nav-link" href="contact-us.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a rel="localize[nav.lang]" class="nav-link" onclick="toggleLang()">ع</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <section class="home">
+        <div class="body">
+          <div class="container">
+              <div class="row">
+                  <div class="content col-md-12 col-sm-12 d-flex align-items-center justify-content-center text-center">
+                    <div class="d-flex flex-column">
+                      <span class="fw-bold" rel="localize[printer.subTitle]">3D PRINTER</span>
+                      <h1 rel="localize[printer.title]">THE ENDER 3</h1>
+                      <h4 class="fw-bold" rel="localize[printer.description]">SMART, SAFE, AFFORDABLE DESIGNED JUST FOR YOU</h4>
+                    </div>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center printer-absolute">
+                  <img class="home-person" src="images/printer.png" alt="person">
+              </div>
+              </div>
+          </div>
+        </div>
+         <div class="social d-flex flex-md-column">
+              <a href="https://www.facebook.com/saud.hazzani" target="_blank">
+                <img src="images/facebook (9).svg" alt="facebook">
+              </a>
+              <a href="https://twitter.com/vegacosplay" target="_blank">
+                <img src="images/twitter (8).svg" alt="twitter">
+              </a>
+              <a href="https://www.instagram.com/vegacosplay/" target="_blank">
+                <img src="images/instagram (9).svg" alt="instagram">
+              </a>
+          </div>
+    </section>
+
+    <!--  -->
+
+    <section class="info">
+      <div class="background overlay">
+        <img class="background-img" src="images/springs.png">
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="d-flex flex-column align-items-center content">
+            <p rel="localize[printer.subTitle]">3D PRINTER</p>
+            <h1 rel="localize[printer.info.header]">DESIGNED FOR YOU</h1>
+            <h4 rel="localize[printer.info.description]">FRIENDLY, AFFORDABLE 3D PRINTER DESIGNED TO HELP YOU INVENT YOUR IDEAS</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--  -->
+
+    <section class="project" id="print">
+      <div class="background overlay-dark">
+        <img class="background-img" src="images/top tube.png">
+      </div>
+      <div class="container content">
+        <div class="row flex-row-reverse">
+          <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+            <div class="item">
+              <img src="images/Mask Group 3.png" alt="icon">
+              <h2 rel="localize[project.print.title]">HIGH PRECISION PRINT</h2>
+              <p rel="localize[project.print.description]">WITH ITS ADVANCED EXTRUDER TECHNOLOGY, ENDER-3 WILL CREATE ACCURATE HIGH-END QUALITY MODELS</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="images/top tube.png" alt="tube">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="structure">
+      <div class="background overlay-dark">
+        <img class="background-img" src="images/printed part (1).png">
+      </div>
+      <div class="container content">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+            <div class="item">
+              <img src="images/Mask Group 5.png" alt="icon">
+              <h2 rel="localize[project.structure.title]">INTEGRATED STRUCTURE</h2>
+              <p rel="localize[project.structure.description]">SIMPLE DESIGN, PORTABLE MINI HOME FACTORY TO SUIT YOUR EVERY DAY NEEDS</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="images/printed part (1).png" alt="tube">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="project" id="heating">
+      <div class="background overlay-dark">
+        <img class="background-img" src="images/hot end 2nd option.png">
+      </div>
+      <div class="container content">
+        <div class="row flex-row-reverse">
+          <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center">
+            <div class="item">
+              <img src="images/Mask Group 7.png" alt="icon">
+              <h2 rel="localize[project.heating.title]">RAPID HEATING UP</h2>
+              <p rel="localize[project.heating.description]">ONLY TAKES 5 MINUTES AND ENJOY THE PROCESS TO CREATE ANY 3D PRINT</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="images/hot end 2nd option.png" alt="tube">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <footer>
+        <div class="background">
+          <img class="background-img" src="images/Mask Group 9.svg">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <img src="images/Group 75.svg" alt="vega">
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.services]" class="header" href="/index.html#services">services</a>
+                <a rel="localize[footer.hosting]"  href="/index.html#hosting">hosting</a>
+                <a rel="localize[footer.judging]"  href="/index.html#judging">judging</a>
+                <a rel="localize[footer.organizing]"  href="/index.html#organizing">organizing</a>
+                <a rel="localize[footer.museum]"  href="#">musuem</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.printer]" class="header" href="/printer.html">printer</a>
+                <a rel="localize[footer.printerHd]"  href="/printer.html#print">print</a>
+                <a rel="localize[footer.integrated]"  href="/printer.html#structure">integrated structure</a>
+                <a rel="localize[footer.rapid]"  href="/printer.html#heating">rapid heating up</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.about]" class="header" href="/about-us.html">about us</a>
+                <a rel="localize[footer.whoWeAre]"  href="/about-us.html#who">who we are</a>
+                <a rel="localize[footer.vision]"  href="/about-us.html#vision">vision</a>
+                <a rel="localize[footer.mission]" href="/about-us.html#mission">mission</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="d-flex flex-column">
+                <a rel="localize[footer.contact]" class="header" href="/contact-us.html">contact</a>
+                <a rel="localize[footer.message]" href="/contact-us.html#message">message</a>
+             <div class="social d-flex">
+                  <a href="https://www.facebook.com/saud.hazzani" target="_blank">
+                    <img src="images/facebook (9).svg" alt="facebook">
+                  </a>
+                  <a href="https://twitter.com/vegacosplay" target="_blank">
+                    <img src="images/twitter (8).svg" alt="twitter">
+                  </a>
+                  <a href="https://www.instagram.com/vegacosplay/" target="_blank">
+                    <img src="images/instagram (9).svg" alt="instagram">
+                  </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/jquery/js/jquery.min.js"></script>
+    <script src="plugins/jquery/js/jquery.localize.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
