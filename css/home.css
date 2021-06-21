@@ -228,3 +228,15 @@ section.services .service .placeholder {
 section.services .service:hover h3 {
   color: var(--primary);
 }
+
+
+/*Toggle scroll*/
+.overflow-hidden{
+  overflow-y: hidden;
+}
+.overflow-visible{
+  overflow-y: visible;
+}
+body{
+  overflow-y: hidden;
+}
