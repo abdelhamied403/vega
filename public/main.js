@@ -63,3 +63,20 @@ function toggleLang() {
     localStorage.setItem('lang', lang);
     location.reload();
 }
+
+
+
+/*  Toggle scroll */
+window.onscroll = function() {
+
+    var currentScroll = window.pageYOffset;
+  
+    if (currentScroll > 20) {
+      $("body").removeClass("overflow-hidden");
+      $("body").addClass("overflow-visible");
+    }
+     else {
+        $("body").addClass("overflow-hidden");
+        $("body").removeClass("overflow-visible");
+    }
+  }
