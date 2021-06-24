@@ -2,9 +2,16 @@
 section.home {
   position: relative;
   min-height: 100vh;
+  background-image: url('../images/about-us.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 section.home .body {
-  padding-top: 100px;
+  padding-top: 0;
   position: relative;
   z-index: 3;
 }
@@ -22,8 +29,13 @@ section.home .body h1 {
   color: var(--primary);
   font-family: "a-space";
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 36px;
 }
+
+[dir="rtl"] section.home .body h1 {
+  font-family: "bustan";
+}
+
 section.home .body h4 {
   font-size: 24px;
 }
@@ -70,6 +82,9 @@ section.info {
   display: flex;
   align-items: center;
   min-height: 80vh;
+  background-image: url('../images/whoweare.png');
+  background-position: right;
+  background-color: black;
 }
 
 section.info .content {
@@ -84,6 +99,9 @@ section.info .content p {
 section.info .content h1 {
   font-family: "babyBlue";
   font-size: 100px;
+}
+[dir="rtl"] section.info .content h1  {
+  font-family: "pfdin";
 }
 
 section.info.vision .content h1 {

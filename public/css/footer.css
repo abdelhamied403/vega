@@ -16,6 +16,9 @@ footer a {
   text-decoration: none;
   margin-bottom: 10px;
 }
+[dir="rtl"] footer a {
+  font-family: "bustan";
+}
 footer a:hover {
   color: var(--onSurface2);
   text-decoration: underline;

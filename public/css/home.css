@@ -3,38 +3,53 @@
 section.home {
   position: relative;
   min-height: 100vh;
+  background-image: url(../images/homebg.png);
+  background-position-x: -150px;
+  background-size: cover;
+  background-position-y: top;
 }
+
 section.home .body {
   padding-top: 100px;
   position: relative;
   z-index: 3;
 }
+
 section.home .body .content {
   min-height: calc(100vh - 100px);
 }
+
 section.home .body .home-person {
   height: calc(100vh - 100px);
   object-fit: cover;
 }
+
 section.home .body h1 {
   color: var(--primary);
   font-family: "a-space";
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 36px;
   margin-bottom: 20px;
 }
+
+[dir="rtl"] section.home .body h1 {
+  color: var(--primary);
+  font-family: "bustan";
+}
+
 @media (min-width: 768px) {
   section.home .body h1 {
     font-size: 38px;
   }
 }
+
 @media (min-width: 1400px) {
   section.home .body h1 {
     font-size: 72px;
   }
 }
 
-.input-group-append .input-group-append{
+.input-group-append .input-group-append {
   padding: 15px;
   height: auto !important;
   line-height: 1 !important;
@@ -46,6 +61,7 @@ section.home .social {
   left: var(--bs-gutter-x, 0.75rem);
   z-index: 4;
 }
+
 section.home .social a {
   margin: 10px;
 }
@@ -70,8 +86,9 @@ section.home .gotoNext {
   flex-flow: column;
   z-index: 4;
   cursor: pointer;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
+
 section.home .gotoNext h5 {
   font-family: "adam-bold";
   text-transform: uppercase;
@@ -81,16 +98,27 @@ section.home .gotoNext h5 {
   margin-bottom: 0px;
 
 }
+
+[dir="rtl"] section.home .gotoNext h5 {
+  font-family: "pfdin";
+}
+
 section.home .gotoNext img {
   width: 48px;
   object-fit: contain;
 }
 
 /* ************************************************************* */
+
 section.services {
   position: relative;
   /* min-height: 150vh; */
+  background-image: url('../images/Group\ 139.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 section.services .body {
   z-index: 4;
   position: relative;
@@ -102,17 +130,26 @@ section.services .body h1 {
   text-transform: uppercase;
   font-size: 38px;
   margin-bottom: 20px;
-  width: min-intrinsic; /* old Chrome, Safari */
-  width: -webkit-min-content; /* less old Chrome, Safari */
-  width: -moz-min-content; /* current Firefox */
+  width: min-intrinsic;
+  /* old Chrome, Safari */
+  width: -webkit-min-content;
+  /* less old Chrome, Safari */
+  width: -moz-min-content;
+  /* current Firefox */
   width: min-content;
   text-shadow: 2px 0px 8px rgb(0 0 0 / 60%);
 }
+
+[dir="rtl"] section.services .body h1 {
+  font-family: "bustan";
+}
+
 @media (min-width: 768px) {
   section.services .body h1 {
     font-size: 72px;
   }
 }
+
 @media (min-width: 1400px) {
   section.services .body h1 {
     font-size: 100px;
@@ -136,57 +173,70 @@ section.services .service .footer {
 
 /*  */
 
-section.services .hosting .service::before{
-  background-image:  url('../images/Group\ 55.png');
+section.services .service .body,
+section.services .service .footer {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+section.services .service:hover .body,
+section.services .service:hover .footer {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+section.services .hosting .service::before {
+  background-image: url('../images/hosting.png');
   opacity: 0.9;
-  }
-  
-  section.services .hosting:hover .service::before{    
-    opacity: 0.7 ;
-  }
+}
+
+section.services .hosting:hover .service::before {
+  opacity: 0.7;
+}
 
 /*  */
 
-  section.services .judging .service::before{
-    background-image:  url('../images/Judging.JPG');
-    opacity: 0.6;
-    }
-    
-    section.services .judging:hover .service::before{    
-      opacity: 0.4;
-    }
+section.services .judging .service::before {
+  background-image: url('../images/Judging.JPG');
+  opacity: 0.9;
+}
+
+section.services .judging:hover .service::before {
+  opacity: 0.4;
+}
 
 /*  */
 
-    section.services .organizing .service::before{
-      background-image:  url('../images/organizing.png');
-      opacity: 0.4;
-      }
-      
-      section.services .organizing:hover .service::before{    
-        opacity: 0.3;
-      }
+section.services .organizing .service::before {
+  background-image: url('../images/organizing.png');
+  opacity: 0.9;
+}
+
+section.services .organizing:hover .service::before {
+  opacity: 0.3;
+}
 
 /*  */
 
-    section.services .museum .service::before{
-      background-image:  url('../images/museum.jpeg');
-      background-position-x: right;
-      }
-      
-      section.services .museum:hover .service::before{    
-        opacity: 0.5;
-      }
-      
+section.services .museum .service::before {
+  background-image: url('../images/museum.jpeg');
+  background-position-x: right;
+  opacity: 0.9;
+}
+
+section.services .museum:hover .service::before {
+  opacity: 0.5;
+}
+
 /*  */
 
-section.services .service::before{
+section.services .service::before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-section.services .service::before{
+section.services .service::before {
   transition: all 0.5s ease;
   content: "";
   position: absolute;
@@ -204,12 +254,16 @@ section.services .service p {
   overflow: hidden;
   font-weight: 600;
 }
+[dir="rtl"] section.services .service p {
+  font-weight: normal;
+}
+
 section.services .service a {
-  color: var(--onSurface2);
+  color: white;
   text-decoration: underline;
   text-transform: uppercase;
   padding: 0 !important;
-  display: none;
+  font-weight: 600;
 }
 
 section.services .service h3 {
@@ -217,8 +271,8 @@ section.services .service h3 {
   font-family: "babyBlue";
   text-transform: uppercase;
 }
-section.services .service:hover a {
-  display: inline-flex;
+[dir="rtl"] section.services .service h3 {
+  font-family: "pfdin";
 }
 section.services .service:hover .placeholder {
   display: block;
@@ -231,18 +285,161 @@ section.services .service:hover .main {
 section.services .service .placeholder {
   display: none;
 }
+
 section.services .service:hover h3 {
   color: var(--primary);
 }
 
-
 /*Toggle scroll*/
-.overflow-hidden{
+.overflow-hidden {
   overflow-y: hidden;
 }
-.overflow-visible{
+
+.overflow-visible {
   overflow-y: visible;
 }
-body{
+
+body {
   overflow-y: hidden;
+}
+
+/*  */
+
+@-webkit-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+@-moz-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+@keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+.scroll-btn {
+  display: block;
+  text-align: center;
+}
+
+.scroll-btn>* {
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #7f8c8d;
+  color: #ffffff;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.scroll-btn>*:hover,
+.scroll-btn>*:focus,
+.scroll-btn>*.active {
+  color: #ffffff;
+}
+
+.scroll-btn>*:hover,
+.scroll-btn>*:focus,
+.scroll-btn>*:active,
+.scroll-btn>*.active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.scroll-btn .mouse {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 55px;
+  margin: 0 auto 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid white;
+  border-radius: 23px;
+}
+
+.scroll-btn .mouse>* {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: white;
+  border-radius: 50%;
+  -webkit-animation: ani-mouse 2.5s linear infinite;
+  -moz-animation: ani-mouse 2.5s linear infinite;
+  animation: ani-mouse 2.5s linear infinite;
+}
+
+.scroll-btn p {
+  margin-bottom: 0px;
+}
+
+.home .input-group>.form-control,
+.home .input-group>.form-select {
+  flex: 0.5 1 auto;
+}
+
+.home form p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
 }

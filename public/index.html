@@ -46,23 +46,20 @@
         </div>
       </nav>
       <section class="home">
-          <div class="background">
-            <img class="background-img" src="images/homebg.png">
-          </div>
           <div class="body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 d-md-block">
+                    <div class="col-md-6 d-md-block ar-none">
                     </div>
                     <div class="content col-md-6 col-sm-12 d-flex align-items-center">
                       <div class="d-flex flex-column">
-                        <h1 rel="localize[home.title]">Experience the world of Cosplay</h1>
+                        <h1 rel="localize[home.title]"></h1>
                         <form class="text-uppercase" id="form-subscribe">
-                            <p rel="localize[home.subscribe]">Subscribe to our newsletter</p>
+                            <p rel="localize[home.subscribe]"></p>
                             <div class="input-group mb-3">
                                 <input rel="localize[general.addEmail]" value="ADD YOUR EMAIL" type="email" name="email" class="form-control">
                                 <div class="input-group-append">
-                                  <button id="subscribe-button" rel="localize[general.send]" value="send" class="btn btn-primary input-group-append" type="button">SEND</button>
+                                  <button id="subscribe-button" rel="localize[general.send]" value="send" class="btn btn-primary input-group-append" type="button"></button>
                                 </div>
                               </div>
                         </form>
@@ -83,14 +80,19 @@
               </a>
           </div>
           <div class="gotoNext" onclick="document.getElementById('services').scrollIntoView()">
-            <h5 rel="localize[home.services]">services</h5>
-            <img src="images/arrow-2.svg" alt="arrowDown">
+            <span class="scroll-btn">
+            <span class="mouse">
+              <span>
+              </span>
+            </span>
+          </span>
+            <p rel="localize[home.services]">services</p>
           </div>
-      </section>
+            </section>
+
+            <!--  -->
+
       <section id="services" class="services">
-        <div class="background">
-          <img class="background-img" src="images/Group 137.png">
-        </div>
         <div class="container pd-t-100">
           <div class="body">
             <div class="row">
@@ -168,6 +170,9 @@
           </div>
         </div>
       </section>
+      
+      <!--  -->
+
       <footer>
         <div class="background">
           <img class="background-img" src="images/Mask Group 9.svg">

@@ -2,17 +2,33 @@
 section.home {
   position: relative;
   min-height: 100vh;
+  background-image: url('../images/Group\ 22.png');
+  background-size: cover;
+  background-position: center;
 }
 section.home .body {
-  padding-top: 100px;
+  padding-top: 0px;
   position: relative;
   z-index: 3;
 }
+
+section.home .body .container{
+display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  section.home .body .container .row{
+  min-height: 50vh;
+    margin: 0;
+  }
+
+
 section.home .body button {
   max-width: 110px;
 }
 section.home .body .content {
-  min-height: calc(100vh - 100px);
+min-height: auto;
 }
 section.home .body .home-person {
   height: calc(90vh - 100px);
@@ -22,7 +38,10 @@ section.home .body h1 {
   color: var(--primary);
   font-family: "a-space";
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 36px;
+}
+[dir="rtl"] section.home .body h1 {
+  font-family: "bustan";
 }
 section.home .body h4 {
   font-size: 24px;
@@ -96,4 +115,33 @@ section.contact .body img {
 section.contact .body .item > * {
   margin-right: 10px;
   margin-bottom: 0;
+}
+
+.padding-b-48{
+  padding-bottom: 48px;
+}
+
+.message-form input, .message-form textarea{
+  margin-bottom: 10px;
+
+}
+.message-form .item{
+margin-bottom: 14px;
+
+}
+.message-form .item p{
+margin-bottom: 0;
+margin-left: 16px;
+}
+
+.message-form .forms-text {
+  background-color: rgba(0,0,0,0.54);
+  padding: 24px;
+}
+
+@media (max-width: 768px) {
+.contact-text-mobile{
+  margin-top: 30px;
+
+}
 }

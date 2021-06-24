@@ -87,7 +87,10 @@ section.home .body h1 {
   color: var(--primary);
   font-family: "a-space";
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 36px;
+}
+[dir="rtl"] section.home .body h1 {
+  font-family: "bustan";
 }
 section.home .body h4 {
   font-size: 24px;
@@ -154,6 +157,9 @@ section.info .content h1 {
   font-weight: bold;
   font-family: "a-space";
 }
+[dir="rtl"] section.info .content h1 {
+  font-family: "bustan";
+}
 
 section.project {
   padding: 50px 0;
@@ -177,8 +183,12 @@ section.project h2 {
   font-size: 24px;
   color: var(--primary);
 }
+
+[dir="rtl"] section.project h2 {
+  font-family: "bustan";
+}
+
 section.project p {
-  font-family: "adam";
   text-transform: uppercase;
 }
 

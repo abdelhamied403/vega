@@ -1,7 +1,13 @@
 /* ********************************************************** */
 section.home {
   position: relative;
-  min-height: 80vh;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/Group\ 139.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 section.home .body {
   padding-top: 100px;
@@ -12,17 +18,20 @@ section.home .body button {
   max-width: 110px;
 }
 section.home .body .content {
-  min-height: calc(80vh - 100px);
+  min-height: auto;
 }
 section.home .body .home-person {
-  height: calc(80vh - 100px);
+  height:auto;
   object-fit: cover;
 }
 section.home .body h1 {
   color: var(--primary);
   font-family: "a-space";
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 36px;
+}
+[dir="rtl"] section.home .body h1 {
+  font-family: "bustan";
 }
 section.home .body h4 {
   font-size: 24px;
@@ -48,12 +57,14 @@ section.home .body h4 {
     font-size: 60px;
   }
 }
+
 section.home .social {
   position: absolute;
   bottom: 10%;
   left: var(--bs-gutter-x, 0.75rem);
   z-index: 4;
 }
+
 section.home .social a {
   margin: 10px;
 }
@@ -67,10 +78,12 @@ section.home .social img {
 section.gallery {
   padding: 100px 0;
 }
+
 section.gallery .image-gallery {
   position: relative;
   margin-bottom: 24px;
 }
+
 section.gallery .image-gallery::after {
   content: "";
   display: block;
@@ -87,4 +100,10 @@ section.gallery .image-gallery img {
   height: 100%; /* This if for the object-fit */
   object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
   object-position: center;
+}
+
+
+.gallery .home h4{
+font-size: 24px !important;
+
 }

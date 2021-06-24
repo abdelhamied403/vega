@@ -14,6 +14,17 @@
   font-family: "adam-bold";
   src: url(fonts/adam/Adam-Bold.ttf);
 }
+
+@font-face {
+  font-family: "bustan";
+  src: url(fonts/bustan-bold.ttf);
+}
+
+@font-face {
+  font-family: "pfdin";
+  src: url(fonts/pfdintextuniversal-regular.otf);
+}
+
 :root {
   --primary: #00c1e3;
   --surface: #000000;
@@ -31,6 +42,11 @@ body {
   overflow-x: hidden;
   scroll-padding-top: 100px;
 }
+
+[dir="rtl"] body {
+  font-family: "pfdin";
+}
+
 a,
 a:hover {
   color: var(--onSurface);
@@ -71,6 +87,10 @@ button {
   height: 40px !important;
   font-family: "adam-bold";
 }
+[dir="rtl"] button {
+  font-family: "pfdin";
+}
+
 .pd-t-100 {
   padding-top: 100px;
 }
@@ -118,6 +138,15 @@ html[dir="rtl"] .rtl-image {
 .row {
   margin: 0 auto;
 }
+
+[dir="ltr"] .en-none{
+  display: none !important;
+}
+
+[dir="rtl"] .ar-none{
+  display: none !important;
+}
+
 
 /* #instafeed {
   --bs-gutter-x: 1.5rem;
