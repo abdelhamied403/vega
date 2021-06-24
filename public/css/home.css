@@ -6,7 +6,9 @@ section.home {
   background-image: url(../images/homebg.png);
   background-position-x: -150px;
   background-size: cover;
-  background-position-y: top;
+  background-position-y: center;
+  background-position-x: 46%;
+  background-repeat: no-repeat;
 }
 
 section.home .body {
@@ -25,15 +27,14 @@ section.home .body .home-person {
 }
 
 section.home .body h1 {
-  color: var(--primary);
+  color: white;
   font-family: "a-space";
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
 [dir="rtl"] section.home .body h1 {
-  color: var(--primary);
   font-family: "bustan";
 }
 
@@ -117,6 +118,7 @@ section.services {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 section.services .body {
@@ -162,6 +164,9 @@ section.services .service {
   height: 500px;
   margin-bottom: 20px;
   background-color: black;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 section.services .service .header,
@@ -191,7 +196,7 @@ section.services .hosting .service::before {
 }
 
 section.services .hosting:hover .service::before {
-  opacity: 0.7;
+  opacity: 0.2;
 }
 
 /*  */
@@ -202,7 +207,7 @@ section.services .judging .service::before {
 }
 
 section.services .judging:hover .service::before {
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 /*  */
@@ -213,7 +218,7 @@ section.services .organizing .service::before {
 }
 
 section.services .organizing:hover .service::before {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 /*  */
@@ -225,7 +230,7 @@ section.services .museum .service::before {
 }
 
 section.services .museum:hover .service::before {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 /*  */
@@ -442,4 +447,25 @@ body {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 600;
+}
+
+
+
+@media (max-width: 768px) {
+.flex-end-xs{
+align-items: flex-end;
+}
+
+
+.right-header{
+
+  text-align: right;
+
+}
+
+.justify-content-end-xs{
+  justify-content: flex-end;
+
+}
+
 }

@@ -1,6 +1,6 @@
 {
     "general": {
-        "send": "SEND",
+        "send": "JOIN US",
         "addEmail": "ADD YOUR EMAIL",
         "buy": "Buy Now",
         "message": "Message",
@@ -12,13 +12,13 @@
     "nav": {
         "home": "Home",
         "printer": "3d printers",
-        "about": "about",
+        "about": "about us",
         "gallery": "gallery",
         "contact": "contact us",
         "lang": "ع"
     },
     "home": {
-        "title": "Experience the world of Cosplay",
+        "title": "Experience Cosplay",
         "subscribe": "Join us",
         "services": "services"
     },

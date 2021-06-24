@@ -2,13 +2,14 @@
 section.home {
   position: relative;
   min-height: 100vh;
-  background-image: url('../images/about-us.png');
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/about-us.png);
+  background-position: left;
+  background-size: 272%;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position-y: bottom;
 }
 section.home .body {
   padding-top: 0;
@@ -30,6 +31,11 @@ section.home .body h1 {
   font-family: "a-space";
   text-transform: uppercase;
   font-size: 36px;
+  margin-top: 36px;
+}
+section.home .body p{
+font-size: 16px;
+margin-top: 36px;
 }
 
 [dir="rtl"] section.home .body h1 {
@@ -85,6 +91,7 @@ section.info {
   background-image: url('../images/whoweare.png');
   background-position: right;
   background-color: black;
+  background-repeat: no-repeat;
 }
 
 section.info .content {

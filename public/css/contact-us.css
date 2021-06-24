@@ -144,4 +144,11 @@ margin-left: 16px;
   margin-top: 30px;
 
 }
+section.home {
+ 
+  background-size: 315%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-position-x: 20%;
+}
 }
