@@ -78,9 +78,11 @@ section.home .gotoNext h5 {
   font-size: 20px;
   font-weight: 400;
   color: var(--onSurface2);
+  margin-bottom: 0px;
+
 }
 section.home .gotoNext img {
-  width: 25px;
+  width: 48px;
   object-fit: contain;
 }
 
@@ -136,17 +138,18 @@ section.services .service .footer {
 
 section.services .hosting .service::before{
   background-image:  url('../images/Group\ 55.png');
+  opacity: 0.9;
   }
   
   section.services .hosting:hover .service::before{    
-    opacity: 0.5;
+    opacity: 0.7 ;
   }
 
 /*  */
 
   section.services .judging .service::before{
     background-image:  url('../images/Judging.JPG');
-    opacity: 0.7;
+    opacity: 0.6;
     }
     
     section.services .judging:hover .service::before{    
@@ -157,10 +160,11 @@ section.services .hosting .service::before{
 
     section.services .organizing .service::before{
       background-image:  url('../images/organizing.png');
+      opacity: 0.4;
       }
       
       section.services .organizing:hover .service::before{    
-        opacity: 0.5;
+        opacity: 0.3;
       }
 
 /*  */
@@ -196,8 +200,9 @@ section.services .service::before{
 /*  */
 
 section.services .service p {
-  line-height: 1.1;
+  line-height: 1.25;
   overflow: hidden;
+  font-weight: 600;
 }
 section.services .service a {
   color: var(--onSurface2);

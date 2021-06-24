@@ -8,7 +8,7 @@ var feed = new Instafeed({
     debug: true,
     clientId: '467ede5a6b9b48ae8e03f4e2582aeeb3',
     resolution: 'low_resolution',
-    accessToken: 'IGQVJYNlBFRUhHNjZAnWk8wU2RERXNBcVFNZAzhGMmk3Ml9RcFY4MmtHakVOUGJVZA3ZAxQmN3MnZAFTVJsR1VWOEpVa3YzWXVtZAVFuSVRTc2pQNl9KemFod1ctS0NNWHRFSGkyMWcxVmpMZAXVCQzdxRG1OegZDZD',
+    accessToken: 'IGQVJWOEpSZAlVOVzRoaHFlWWpkc0lkV1l2cGxObGVPZAk9hZAVk1aExuSnFtRV9wUmc0VDFEN1Q2RWxQeGJ2Q0cteTJtYW1BNGJyUld3VG8tNmsxLWJ4TzFpTWZAYUE5GSDNmb0hMSnJJMWhSOHZAEWng5eAZDZD',
     limit: 9,
     template: `
       <div class="col-md-4 col-sm-6">
