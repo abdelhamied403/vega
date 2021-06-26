@@ -12,7 +12,7 @@ const cart = (() => {
     key: stripePublicKey,
     locale: "auto",
     token: function (token) {
-      fetch("http://localhost:5000/api/product/checkout", {
+      fetch("https://vegap.herokuapp.com/api/product/checkout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
