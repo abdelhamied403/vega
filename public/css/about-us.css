@@ -4,7 +4,7 @@ section.home {
   min-height: 100vh;
   background-image: url(../images/about-us.png);
   background-position: left;
-  background-size: 272%;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;

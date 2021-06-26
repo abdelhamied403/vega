@@ -72,11 +72,11 @@ window.onscroll = function() {
     var currentScroll = window.pageYOffset;
   
     if (currentScroll > 20) {
-      $("body").removeClass("overflow-hidden");
-      $("body").addClass("overflow-visible");
+      $(".scrolling").removeClass("overflow-hidden");
+      $(".scrolling").addClass("overflow-visible");
     }
      else {
-        $("body").addClass("overflow-hidden");
-        $("body").removeClass("overflow-visible");
+        $(".scrolling").addClass("overflow-hidden");
+        $(".scrolling").removeClass("overflow-visible");
     }
   }
