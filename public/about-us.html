@@ -1,76 +1,146 @@
 <!DOCTYPE html>
 <html dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/about-us.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
     <title>Vega</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- <p class="test" rel="localize[title]"></p> -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-              <img src="images/Group 75.svg" alt="Vega">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a rel="localize[nav.home]" class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a rel="localize[nav.printer]" class="nav-link" href="printer.html">Printer</a>
-              </li>
-              <li class="nav-item">
-                <a rel="localize[nav.about]" class="nav-link active" href="about-us.html">about</a>
-              </li>
-              <li class="nav-item">
-                <a rel="localize[nav.gallery]" class="nav-link" href="gallery.html">gallery</a>
-              </li>
-              <li class="nav-item">
-                <a rel="localize[nav.contact]" class="nav-link" href="contact-us.html">Contact us</a>
-              </li>
-              <li class="nav-item">
-                <a rel="localize[nav.lang]" class="nav-link" onclick="toggleLang()">ع</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    
-      <section class="home">
-        <div class="body">
-          <div class="container">
-              <div class="row">
-                  <div class="content col-md-12 col-sm-12 d-flex align-items-center text-center">
-                    <div class="d-flex flex-column">
-                      <h1 rel="localize[about.header]"></h1>
-                      <p rel="localize[about.description]"> </p>
-
-                    </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Group 75.svg" alt="Vega" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                rel="localize[nav.home]"
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                rel="localize[nav.printer]"
+                class="nav-link active"
+                href="printer.html"
+                >Printer</a
+              >
+            </li>
+            <li class="nav-item">
+              <a rel="localize[nav.about]" class="nav-link" href="about-us.html"
+                >about</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                rel="localize[nav.gallery]"
+                class="nav-link"
+                href="gallery.html"
+                >gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                rel="localize[nav.contact]"
+                class="nav-link"
+                href="contact-us.html"
+                >Contact us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                rel="localize[nav.lang]"
+                class="nav-link"
+                onclick="toggleLang()"
+                >ع</a
+              >
+            </li>
+            <li class="nav-item">
+              <div class="cart">
+                <button class="cart-btn" onclick="cart.show()">
+                  <span class="badge"></span>
+                  <div class="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="white"
+                      width="30px"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </button>
+                <div class="list show">
+                  <ul></ul>
                 </div>
               </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="body">
+        <div class="container">
+          <div class="row">
+            <div
+              class="
+                content
+                col-md-12 col-sm-12
+                d-flex
+                align-items-center
+                text-center
+              "
+            >
+              <div class="d-flex flex-column">
+                <h1 rel="localize[about.header]"></h1>
+                <p rel="localize[about.description]"></p>
+              </div>
+            </div>
           </div>
         </div>
-         <div class="social d-flex flex-md-column">
-              <a href="https://www.facebook.com/saud.hazzani" target="_blank">
-                <img src="images/facebook (9).svg" alt="facebook">
-              </a>
-              <a href="https://twitter.com/vegacosplay" target="_blank">
-                <img src="images/twitter (8).svg" alt="twitter">
-              </a>
-              <a href="https://www.instagram.com/vegacosplay/" target="_blank">
-                <img src="images/instagram (9).svg" alt="instagram">
-              </a>
-          </div>
+      </div>
+      <div class="social d-flex flex-md-column">
+        <a href="https://www.facebook.com/saud.hazzani" target="_blank">
+          <img src="images/facebook (9).svg" alt="facebook" />
+        </a>
+        <a href="https://twitter.com/vegacosplay" target="_blank">
+          <img src="images/twitter (8).svg" alt="twitter" />
+        </a>
+        <a href="https://www.instagram.com/vegacosplay/" target="_blank">
+          <img src="images/instagram (9).svg" alt="instagram" />
+        </a>
+      </div>
     </section>
 
     <!-- <section class="info" id="who">
@@ -91,7 +161,7 @@
 
     <section class="info vision">
       <div class="background overlay-light">
-        <img class="background-img" src="images/Group 139.png">
+        <img class="background-img" src="images/Group 139.png" />
       </div>
       <div class="container">
         <div class="row d-flex align-items-center" id="vision">
@@ -110,64 +180,100 @@
         </div>
       </div>
     </section>
-    
-      <footer>
-        <div class="background">
-          <img class="background-img" src="images/Mask Group 9.svg">
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <img src="images/Group 75.svg" alt="vega">
+
+    <footer>
+      <div class="background">
+        <img class="background-img" src="images/Mask Group 9.svg" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <img src="images/Group 75.svg" alt="vega" />
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <div class="d-flex flex-column">
+              <a
+                rel="localize[footer.services]"
+                class="header"
+                href="/index.html#services"
+              ></a>
+              <a rel="localize[footer.hosting]" href="/index.html#hosting"></a>
+              <a rel="localize[footer.judging]" href="/index.html#judging"></a>
+              <a
+                rel="localize[footer.organizing]"
+                href="/index.html#organizing"
+              ></a>
+              <a rel="localize[footer.museum]" href="#"></a>
             </div>
-            <div class="col-md-2 col-sm-6">
-              <div class="d-flex flex-column">
-                <a rel="localize[footer.services]" class="header" href="/index.html#services"></a>
-                <a rel="localize[footer.hosting]"  href="/index.html#hosting"></a>
-                <a rel="localize[footer.judging]"  href="/index.html#judging"></a>
-                <a rel="localize[footer.organizing]"  href="/index.html#organizing"></a>
-                <a rel="localize[footer.museum]"  href="#"></a>
-              </div>
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <div class="d-flex flex-column">
+              <a
+                rel="localize[footer.printer]"
+                class="header"
+                href="/printer.html"
+              ></a>
+              <a
+                rel="localize[footer.printerHd]"
+                href="/printer.html#print"
+              ></a>
+              <a
+                rel="localize[footer.integrated]"
+                href="/printer.html#structure"
+              >
+              </a>
+              <a rel="localize[footer.rapid]" href="/printer.html#heating"></a>
             </div>
-            <div class="col-md-2 col-sm-6">
-              <div class="d-flex flex-column">
-                <a rel="localize[footer.printer]" class="header" href="/printer.html"></a>
-                <a rel="localize[footer.printerHd]"  href="/printer.html#print"></a>
-                <a rel="localize[footer.integrated]"  href="/printer.html#structure"> </a>
-                <a rel="localize[footer.rapid]"  href="/printer.html#heating"></a>
-              </div>
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <div class="d-flex flex-column">
+              <a
+                rel="localize[footer.about]"
+                class="header"
+                href="/about-us.html"
+              >
+              </a>
+              <a rel="localize[footer.whoWeAre]" href="/about-us.html#who"></a>
+              <a rel="localize[footer.vision]" href="/about-us.html#vision"></a>
+              <a
+                rel="localize[footer.mission]"
+                href="/about-us.html#mission"
+              ></a>
             </div>
-            <div class="col-md-2 col-sm-6">
-              <div class="d-flex flex-column">
-                <a rel="localize[footer.about]" class="header" href="/about-us.html"> </a>
-                <a rel="localize[footer.whoWeAre]"  href="/about-us.html#who"></a>
-                <a rel="localize[footer.vision]"  href="/about-us.html#vision"></a>
-                <a rel="localize[footer.mission]" href="/about-us.html#mission"></a>
-              </div>
-            </div>
-            <div class="col-md-2 col-sm-6">
-              <div class="d-flex flex-column">
-                <a rel="localize[footer.contact]" class="header" href="/contact-us.html"></a>
-                <a rel="localize[footer.message]" href="/contact-us.html#message"></a>
-             <div class="social d-flex">
-                  <a href="https://www.facebook.com/saud.hazzani" target="_blank">
-                    <img src="images/facebook (9).svg" alt="facebook">
-                  </a>
-                  <a href="https://twitter.com/vegacosplay" target="_blank">
-                    <img src="images/twitter (8).svg" alt="twitter">
-                  </a>
-                  <a href="https://www.instagram.com/vegacosplay/" target="_blank">
-                    <img src="images/instagram (9).svg" alt="instagram">
-                  </a>
-              </div>
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <div class="d-flex flex-column">
+              <a
+                rel="localize[footer.contact]"
+                class="header"
+                href="/contact-us.html"
+              ></a>
+              <a
+                rel="localize[footer.message]"
+                href="/contact-us.html#message"
+              ></a>
+              <div class="social d-flex">
+                <a href="https://www.facebook.com/saud.hazzani" target="_blank">
+                  <img src="images/facebook (9).svg" alt="facebook" />
+                </a>
+                <a href="https://twitter.com/vegacosplay" target="_blank">
+                  <img src="images/twitter (8).svg" alt="twitter" />
+                </a>
+                <a
+                  href="https://www.instagram.com/vegacosplay/"
+                  target="_blank"
+                >
+                  <img src="images/instagram (9).svg" alt="instagram" />
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/jquery/js/jquery.min.js"></script>
     <script src="plugins/jquery/js/jquery.localize.min.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
