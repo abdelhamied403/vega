@@ -72,7 +72,9 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
         },
-        "contact": "Message us to buy the ender 3"
+        "contact": "Message us to buy the ender 3",
+        "contactdescription": "Caramels caramels cookie cupcake fruitcake pie oat cake pudding. Cupcake tootsie roll cookie sugar plum. Chocolate bar topping candy canes cupcake. Pie lollipop ice cream cupcake wafer muffin candy. Candy apple pie powder. Halvah chocolate tiramisu. Candy canes croissant jelly-o macaroon ice cream sweet. Chocolate bar pie jelly-o jelly fruitcake ice cream sugar plum oat cake. Cake cake jelly candy canes brownie candy canes soufflé brownie pastry. Danish bear claw biscuit bonbon gummi bears danish chocolate bar jelly. Sweet roll sweet jelly caramels topping. Ice cream cake sweet roll lollipop cake candy pudding.",
+        "learnmore": "Learn More"
 
     },
     "project": {

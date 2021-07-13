@@ -440,7 +440,7 @@ body {
 
 .home .input-group>.form-control,
 .home .input-group>.form-select {
-  flex: 0.5 1 auto;
+  flex: 1 1 auto;
 }
 
 .home form p {

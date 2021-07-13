@@ -247,3 +247,16 @@ section.contact .body .item > * {
   margin-right: 10px;
   margin-bottom: 0;
 }
+
+.btn{
+text-transform: uppercase;
+font-family: 'adam-bold';
+}
+.btn-outline{
+  color: var(--primary);
+}
+
+.btn-outline.btn:hover {
+  color: var(--primary);
+    text-decoration: underline;
+}
