@@ -34,8 +34,9 @@ section.home .body h1 {
   margin-top: 36px;
 }
 section.home .body p{
-font-size: 16px;
-margin-top: 36px;
+  font-size: 26px;
+  margin-top: 36px;
+  font-weight: bold;
 }
 
 [dir="rtl"] section.home .body h1 {
@@ -100,12 +101,11 @@ section.info .content {
 }
 
 section.info .content p {
-  /* font-weight: bold; */
   margin: 0;
 }
 section.info .content h1 {
-  font-family: "babyBlue";
-  font-size: 100px;
+  font-family: "a-space";
+  font-size: 72px;
 }
 [dir="rtl"] section.info .content h1  {
   font-family: "pfdin";
@@ -118,3 +118,48 @@ section.info.vision .content h1 {
 section.info .content.who-we-are h1{
   color: #FCAC6A;
   }
+
+
+  .margin-t-0{
+
+    margin-top: 0 !important;
+  }
+  @media (max-width: 768px) {
+
+  .about-mobile-header{
+
+    height: 100%;
+    justify-content: flex-end;
+  }
+
+
+  section.home .body p{
+
+font-size: 16px;
+margin-top: 0px;
+text-align: left;
+
+  }
+  section.home .social {
+    bottom: 1.5%;
+
+  }
+  section.home .body h1{
+
+    text-align: left;
+  }
+  .vision #mission{
+
+    margin-top: 36px
+  }
+  section.info .content h1 {
+    font-size: 36px;
+  }
+  }
+
+section.info .content p{
+  font-size: 18px;
+    font-weight: bold;
+  } 
+
+
