@@ -166,6 +166,15 @@ section.project {
   position: relative;
 }
 
+section.project .row {
+min-height: 70vh;
+}
+
+section.project .row .col-md-6.col-sm-12.image img{
+
+  height: 70vh;
+object-fit: cover;
+}
 section.project .content {
   z-index: 4;
   position: relative;
@@ -199,7 +208,7 @@ section.project p {
 }
 @media (min-width: 1400px) {
   section.project h2 {
-    font-size: 72px;
+    font-size: 36px;
   }
 }
 
@@ -207,6 +216,12 @@ section.project p {
   .printer-absolute{
     top: 60%;
   }
+
+  section.project .row .col-md-6.col-sm-12.image img{
+
+  height: auto;
+  margin-bottom: 24px;
+}
 }
 
 
@@ -259,4 +274,9 @@ font-family: 'adam-bold';
 .btn-outline.btn:hover {
   color: var(--primary);
     text-decoration: underline;
+}
+
+.line{
+  margin-bottom: 16px;
+  max-width: 100%;
 }
