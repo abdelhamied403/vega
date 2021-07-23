@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="2" viewBox="0 0 778 2">
+  <defs>
+    <pattern id="pattern" width="1" height="1" patternTransform="matrix(-1, 0, 0, 1, 778, 0)" viewBox="0 0 389 2">
+      <use preserveAspectRatio="none" xlink:href="#image"/>
+    </pattern>
+    <image id="image" preserveAspectRatio="none" width="389" height="2" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYUAAAACCAYAAAC34cCcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADxSURBVEhL7ZXRDcIwDEQdFmEDWJEV2QAGgaKrcuhk2aGladWPPsny5ewkjRRCuTyGmx3smaHmDK1Te48B3jXTw1h1NPZelDPdyq+qNcP3wX4GoO+DdWhCrV4vsjXhl5oJNANojd8N9Az+PByrHwVQDTLdgn3+LL3AuqC1ds+91zjDl/vZhuvTimb40GPDBHTOP/MVv5bmsSHgVPPBPll6gTFf16Cm72tRnR7wPmuqgWrF9/uLGV3UqMfvxYjI/KW09iS+rnOyuVrPejFOf9QdyPZdi6n7LDnzJmfhY8vHdzRngrmtR3sOXIff8usPwczsA/k4sB8O3mi2AAAAAElFTkSuQmCC"/>
+  </defs>
+  <g id="Group_137" data-name="Group 137" transform="translate(-807 -1435)">
+    <use id="Rectangle_18" data-name="Rectangle 18" transform="translate(1196 1435)" xlink:href="#image"/>
+    <rect id="Rectangle_18-2" data-name="Rectangle 18" width="389" height="2" transform="translate(807 1435)" fill="url(#pattern)"/>
+  </g>
+</svg>
