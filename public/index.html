@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/home.css" />
     <title>Vega</title>
   </head>
-  <body class="scrolling">
+  <body class="scrolling overflow-visible">
     <!-- <p class="test" rel="localize[title]"></p> -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
@@ -113,7 +113,7 @@
         <div class="container">
           <div class="row">
             <div class="content col-md-6 col-sm-12 d-flex mt-4">
-              <div class="d-flex flex-column flex-end-xs">
+              <div class="d-flex flex-column">
                 <div class="header-image">
                   <img src="images/Group 1318.svg" />
                 </div>
@@ -142,17 +142,6 @@
           <img src="images/instagram (9).svg" alt="instagram" />
         </a>
       </div>
-      <div
-        class="gotoNext"
-        onclick="document.getElementById('services').scrollIntoView()"
-      >
-        <span class="scroll-btn">
-          <span class="mouse">
-            <span> </span>
-          </span>
-        </span>
-        <p rel="localize[home.services]">services</p>
-      </div>
     </section>
 
     <!--  -->
@@ -166,7 +155,10 @@
             </h1>
           </div>
           <div class="row py-4 services-grid">
-            <div class="col-lg-3 col-md-6 col-sm-12 hosting" id="hosting">
+            <div
+              class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column hosting"
+              id="hosting"
+            >
               <div class="service">
                 <div class="header">
                   <img
@@ -200,16 +192,15 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 judging" id="judging">
-              <div class="body">
-                <p rel="localize[services.judging.body]">
-                  Cosplay requires qualified judges with experience who hold
-                  themselves to a high standard. Like any game cosplay has rules
-                  that are essential to create a safe and fair atmosphere during
-                  competitions, this will help inspire passion to a generation
-                  of Cosplayers and fans who honor the game and enjoy it
-                </p>
-              </div>
+            <div
+              class="
+                col-lg-3 col-md-6 col-sm-12
+                d-flex
+                flex-column flex-md-column-reverse
+                judging
+              "
+              id="judging"
+            >
               <div class="service">
                 <div class="header">
                   <img class="main" src="images/painting-1.svg" alt="judging" />
@@ -226,8 +217,20 @@
                   </h3>
                 </div>
               </div>
+              <div class="body">
+                <p rel="localize[services.judging.body]">
+                  Cosplay requires qualified judges with experience who hold
+                  themselves to a high standard. Like any game cosplay has rules
+                  that are essential to create a safe and fair atmosphere during
+                  competitions, this will help inspire passion to a generation
+                  of Cosplayers and fans who honor the game and enjoy it
+                </p>
+              </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 organizing" id="organizing">
+            <div
+              class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column organizing"
+              id="organizing"
+            >
               <div class="service">
                 <div class="header">
                   <img
@@ -261,18 +264,15 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 museum" id="museum">
-              <div class="body">
-                <p rel="localize[services.museum.body]">
-                  A fantastic addition to any event is the Host, they Inspire,
-                  engage and keep your guests entertained! Many people do not
-                  immediately think of that but a host has practical benifts of
-                  time-keeping and facilitating, they also offer advantages
-                  during show delays or technical issues. On the other hand a
-                  great Host will to keep the crowd excited and engaged as they
-                  build suspense in anticipation for the main event.
-                </p>
-              </div>
+            <div
+              class="
+                col-lg-3 col-md-6 col-sm-12
+                d-flex
+                flex-column flex-md-column-reverse
+                museum
+              "
+              id="museum"
+            >
               <div class="service">
                 <div class="header">
                   <img class="main" src="images/painting-1.svg" alt="museum" />
@@ -288,6 +288,17 @@
                     museum
                   </h3>
                 </div>
+              </div>
+              <div class="body">
+                <p rel="localize[services.museum.body]">
+                  A fantastic addition to any event is the Host, they Inspire,
+                  engage and keep your guests entertained! Many people do not
+                  immediately think of that but a host has practical benifts of
+                  time-keeping and facilitating, they also offer advantages
+                  during show delays or technical issues. On the other hand a
+                  great Host will to keep the crowd excited and engaged as they
+                  build suspense in anticipation for the main event.
+                </p>
               </div>
             </div>
           </div>
