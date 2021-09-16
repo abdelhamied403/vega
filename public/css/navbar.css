@@ -20,9 +20,11 @@
 }
 .navbar .nav-item {
   text-transform: uppercase;
-  font-family: "babyBlue";
+  font-family: "bhigh";
   margin: 0 20px;
-  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 [dir="rtl"] .navbar .nav-item {
   font-family: "pfdin";

@@ -1,121 +1,123 @@
 {
-    "general": {
-        "send": "JOIN US",
-        "addEmail": "ADD YOUR EMAIL",
-        "buy": "Buy Now",
-        "message": "Message",
-        "name": "Name",
-        "email": "Email",
-        "image22": "images/Group 22 -up.png",
-        "loadMore": "Load more"
+  "general": {
+    "send": "JOIN US",
+    "addEmail": "ADD YOUR EMAIL",
+    "buy": "Buy Now",
+    "message": "Message",
+    "name": "Name",
+    "email": "Email",
+    "image22": "images/Group 22 -up.png",
+    "loadMore": "Load more"
+  },
+  "nav": {
+    "home": "Home",
+    "printer": "3d printers",
+    "about": "about us",
+    "gallery": "gallery",
+    "contact": "contact us",
+    "lang": "ع"
+  },
+  "home": {
+    "title": "Experience Cosplay",
+    "subscribe": "Join us",
+    "services": "services",
+    "callUs": "Call Us",
+    "learnMore": "Learn More",
+    "heroParagraph": "special costumes created for every audience. we will provide the best experience and leave you wanting more!"
+  },
+  "services": {
+    "title": "Our services",
+    "book": "Book us",
+    "hosting": {
+      "title": "hosting",
+      "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
     },
-    "nav": {
-        "home": "Home",
-        "printer": "3d printers",
-        "about": "about us",
-        "gallery": "gallery",
-        "contact": "contact us",
-        "lang": "ع"
+    "judging": {
+      "title": "Judging",
+      "body": "Cosplay requires qualified judges with experience who hold themselves to a high standard. Like any game cosplay has rules that are essential to create a safe and fair atmosphere during competitions, this will help inspire passion to a generation of Cosplayers and fans who honor the game and enjoy it"
     },
-    "home": {
-        "title": "Experience Cosplay",
-        "subscribe": "Join us",
-        "services": "services"
+    "organizing": {
+      "title": "Organizing",
+      "body": "Our passion in Cosplay, combined with our local market expertise, enables us to provide a full scale of management services to our clients in the entertainment industry From event planning , or stage production VE team will to handle every logistical element of your event , and serve as the conceptual and visual event designer to handle all stage aspects. Therefore, we handle and orchestrate the planning, production and design elements."
     },
-    "services": {
-        "title": "Our services",
-        "book": "Book us",
-        "hosting": {
-            "title": "hosting",
-            "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
-        },
-        "judging": {
-            "title": "Judging",
-            "body": "Cosplay requires qualified judges with experience who hold themselves to a high standard. Like any game cosplay has rules that are essential to create a safe and fair atmosphere during competitions, this will help inspire passion to a generation of Cosplayers and fans who honor the game and enjoy it"
-        },
-        "organizing": {
-            "title": "Organizing",
-            "body": "Our passion in Cosplay, combined with our local market expertise, enables us to provide a full scale of management services to our clients in the entertainment industry From event planning , or stage production VE team will to handle every logistical element of your event , and serve as the conceptual and visual event designer to handle all stage aspects. Therefore, we handle and orchestrate the planning, production and design elements."
-        },
-        "museum": {
-            "title": "Museum",
-            "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
-        }
-    },
-    "footer": {
-        "hosting": "hosting",
-        "judging": "judging",
-        "organizing": "organizing",
-        "museum": "museum",
-        "services": "Our services",
-        "printer": "3D printer",
-        "printerHd": "heigh precision print",
-        "integrated": "integrated structure",
-        "rapid": "rapid heating up",
-        "about": "about us",
-        "whoWeAre": "Who we are",
-        "vision": "vision",
-        "mission": "mission",
-        "contact": "contact us",
-        "message": "message us"
-    },
-    "printer": {
-        "title": "THE ENDER 3",
-        "subTitle": "3D PRINTER",
-        "description": "smart, safe, affordable designed just for you",
-        "info": {
-            "description": "friendly, affordable 3d printer designed to help you invent your ideas",
-            "header": "Designed for you"
-        },
-        "items": {
-            "header": "Product Information",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-        },
-        "contact": "Message us to buy the ender 3",
-        "contactdescription": "Caramels caramels cookie cupcake fruitcake pie oat cake pudding. Cupcake tootsie roll cookie sugar plum. Chocolate bar topping candy canes cupcake. Pie lollipop ice cream cupcake wafer muffin candy. Candy apple pie powder. Halvah chocolate tiramisu. Candy canes croissant jelly-o macaroon ice cream sweet. Chocolate bar pie jelly-o jelly fruitcake ice cream sugar plum oat cake. Cake cake jelly candy canes brownie candy canes soufflé brownie pastry. Danish bear claw biscuit bonbon gummi bears danish chocolate bar jelly. Sweet roll sweet jelly caramels topping. Ice cream cake sweet roll lollipop cake candy pudding.",
-        "learnmore": "Learn More"
-
-    },
-    "project": {
-        "print": {
-            "title": "high Precision Print",
-            "description": "with its advanced extruder technology, Ender-3 will Create accurate high-end quality models"
-        },
-        "structure": {
-            "title": "Integrated Structure",
-            "description": "Simple design, portable mini home factory to suit your every day needs"
-        },
-        "heating": {
-            "title": "Rapid Heating Up",
-            "description": "Only takes 5 minutes and enjoy the process to create any 3D print"
-        }
-    },
-    "about": {
-        "title": "about us",
-        "header": "Who we are",
-        "description": "Passionate local self-taught artists who specialize in costume making ( Cosplay ) and portraying different characters from various sources, The establishment is consider the extension of the artist Saud-Al-Hazzani's work which started in 2011 and later on founded Vega in 2019"
-    },
-    "vision": {
-        "header": "Vision",
-        "description": "To become the largest and widest cultural organizaion in the world, to suit the necessities of life and the aspirations of residents."
-    },
-    "mission": {
-        "header": "Mission",
-        "description": "Vega Entertainment strives to achieve a prominent presence in entertainment arenas of all sectors To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people."
-    },
-    "gallery": {
-        "title": "Gallery",
-        "description": "Creativity is intelligence having fun"
-    },
-    "contact": {
-        "title": "Contact us",
-        "message": "message us",
-        "address": "Kingdom of Saudi Arabia Riyadh-Olaya District Behind Sulaiman Alhabib Alawsat Street",
-        "floor": "P.O. Box: 305303-11361 78 Str. Floor No. 1-Office No.5",
-        "phone": "Phone: +966-11-4333345",
-        "mobile": "Mob: +966-50-3233335",
-        "cos": "VegaCosplay",
-        "website": "www.vega.com.sa"
+    "museum": {
+      "title": "Museum",
+      "body": "A fantastic addition to any event is the Host, they Inspire, engage and keep your guests entertained! Many people do not immediately think of that but a host has practical benifts of time-keeping and facilitating, they also offer advantages during show delays or technical issues. On the other hand a great Host will to keep the crowd excited and engaged as they build suspense in anticipation for the main event."
     }
+  },
+  "footer": {
+    "hosting": "hosting",
+    "judging": "judging",
+    "organizing": "organizing",
+    "museum": "museum",
+    "services": "Our services",
+    "printer": "3D printer",
+    "printerHd": "heigh precision print",
+    "integrated": "integrated structure",
+    "rapid": "rapid heating up",
+    "about": "about us",
+    "whoWeAre": "Who we are",
+    "vision": "vision",
+    "mission": "mission",
+    "contact": "contact us",
+    "message": "message us",
+    "copyrights": "All copyrights reserved to Vega entertainments"
+  },
+  "printer": {
+    "title": "THE ENDER 3",
+    "subTitle": "3D PRINTER",
+    "description": "smart, safe, affordable designed just for you",
+    "info": {
+      "description": "friendly, affordable 3d printer designed to help you invent your ideas",
+      "header": "Designed for you"
+    },
+    "items": {
+      "header": "Product Information",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "contact": "Message us to buy the ender 3",
+    "contactdescription": "Caramels caramels cookie cupcake fruitcake pie oat cake pudding. Cupcake tootsie roll cookie sugar plum. Chocolate bar topping candy canes cupcake. Pie lollipop ice cream cupcake wafer muffin candy. Candy apple pie powder. Halvah chocolate tiramisu. Candy canes croissant jelly-o macaroon ice cream sweet. Chocolate bar pie jelly-o jelly fruitcake ice cream sugar plum oat cake. Cake cake jelly candy canes brownie candy canes soufflé brownie pastry. Danish bear claw biscuit bonbon gummi bears danish chocolate bar jelly. Sweet roll sweet jelly caramels topping. Ice cream cake sweet roll lollipop cake candy pudding.",
+    "learnmore": "Learn More"
+  },
+  "project": {
+    "print": {
+      "title": "high Precision Print",
+      "description": "with its advanced extruder technology, Ender-3 will Create accurate high-end quality models"
+    },
+    "structure": {
+      "title": "Integrated Structure",
+      "description": "Simple design, portable mini home factory to suit your every day needs"
+    },
+    "heating": {
+      "title": "Rapid Heating Up",
+      "description": "Only takes 5 minutes and enjoy the process to create any 3D print"
+    }
+  },
+  "about": {
+    "title": "about us",
+    "header": "Who we are",
+    "description": "Passionate local self-taught artists who specialize in costume making ( Cosplay ) and portraying different characters from various sources, The establishment is consider the extension of the artist Saud-Al-Hazzani's work which started in 2011 and later on founded Vega in 2019"
+  },
+  "vision": {
+    "header": "Vision",
+    "description": "To become the largest and widest cultural organizaion in the world, to suit the necessities of life and the aspirations of residents."
+  },
+  "mission": {
+    "header": "Mission",
+    "description": "Vega Entertainment strives to achieve a prominent presence in entertainment arenas of all sectors To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Creativity is intelligence having fun"
+  },
+  "contact": {
+    "title": "Contact us",
+    "message": "message us",
+    "address": "Kingdom of Saudi Arabia Riyadh-Olaya District Behind Sulaiman Alhabib Alawsat Street",
+    "floor": "P.O. Box: 305303-11361 78 Str. Floor No. 1-Office No.5",
+    "phone": "Phone: +966-11-4333345",
+    "mobile": "Mob: +966-50-3233335",
+    "cos": "VegaCosplay",
+    "website": "www.vega.com.sa"
+  }
 }
