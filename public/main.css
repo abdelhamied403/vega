@@ -97,8 +97,6 @@ textarea {
   border-radius: 0 !important;
   outline: none !important;
   border: 2px solid var(--primary) !important;
-  background-color: transparent !important;
-  color: var(--onSurface) !important;
   padding: 5px;
 }
 .form-control:focus {
