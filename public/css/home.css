@@ -478,4 +478,9 @@ section.services .body p {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  font-family: "abel";
+}
+
+[dir="rtl"] section.services .body p {
+  font-family: "pfdin";
 }

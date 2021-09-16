@@ -1,7 +1,7 @@
 footer {
   position: relative;
   min-height: 300px;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 footer .background-img {
   object-position: right bottom;
@@ -9,15 +9,15 @@ footer .background-img {
 footer a {
   color: var(--onSurface2);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   z-index: 9;
-  font-family: "a-space";
+  font-family: "bhigh";
   font-weight: 400;
   text-decoration: none;
   margin-bottom: 10px;
 }
 [dir="rtl"] footer a {
-  font-family: "bustan";
+  font-family: "pfdin";
 }
 footer a:hover {
   color: var(--onSurface2);
@@ -33,21 +33,7 @@ footer .social > * {
   margin-right: 25px;
 }
 
-footer::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background: var(--primary);
-  background: linear-gradient(
-    90deg,
-    var(--primary00) 0%,
-    var(--primary) 50%,
-    var(--primary00) 100%
-  );
-}
-
-footer .background {
+footer {
   display: flex;
   flex-direction: column;
   background-color: var(--primary05);
@@ -55,4 +41,11 @@ footer .background {
 
 footer .container {
   margin-top: 80px;
+}
+
+footer .copytight {
+  margin: 40px 0;
+}
+footer .copytight p {
+  text-align: center;
 }

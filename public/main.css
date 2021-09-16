@@ -30,6 +30,21 @@
   src: url(fonts/And_Then_It_Ends.otf);
 }
 
+@font-face {
+  font-family: "atie";
+  src: url(fonts/And_Then_It_Ends.otf);
+}
+
+@font-face {
+  font-family: "bhigh";
+  src: url(fonts/blue_highway/blue\ highway\ bd.ttf);
+}
+
+@font-face {
+  font-family: "abel";
+  src: url(fonts/Abel-Regular.ttf);
+}
+
 :root {
   --primary: #00c1e3;
   --primary05: #00c1e31e;
@@ -176,6 +191,7 @@ button {
   padding: 5px 28px;
   font-size: 24px;
   margin: 10px;
+  font-family: "bhigh";
 }
 
 @media screen and (max-width: 768px) {
@@ -195,7 +211,6 @@ button.main {
 
 button.link {
   background-color: transparent;
-  font-style: italic;
 }
 
 button.link::after {
