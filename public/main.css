@@ -98,6 +98,7 @@ textarea {
   outline: none !important;
   border: 2px solid var(--primary) !important;
   padding: 5px;
+  font-family: "adam-bold";
 }
 .form-control:focus {
   box-shadow: none !important;
@@ -189,7 +190,6 @@ button {
   padding: 5px 28px;
   font-size: 24px;
   margin: 10px;
-  font-family: "bhigh";
 }
 
 @media screen and (max-width: 768px) {
@@ -205,10 +205,14 @@ button {
 button.main {
   background-color: var(--primary);
   border-radius: 15px;
+  font-family: "bhigh";
 }
 
 button.link {
   background-color: transparent;
+  font-style: italic;
+  font-family: "adam";
+  color: #ccc;
 }
 
 button.link::after {
@@ -217,4 +221,8 @@ button.link::after {
   width: 100%;
   height: 4px;
   background: var(--primary);
+}
+
+span.marker {
+  background-color: #131313;
 }

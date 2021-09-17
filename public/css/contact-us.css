@@ -153,11 +153,6 @@ section.contact .body .item > * {
   margin-left: 16px;
 }
 
-.message-form .forms-text {
-  background-color: rgba(0, 0, 0, 0.54);
-  padding: 24px;
-}
-
 @media (max-width: 768px) {
   .contact-text-mobile {
     margin-top: 30px;
