@@ -1,8 +1,10 @@
 /* ********************************************************** */
+body {
+  background-image: url(../images/about-us.jpg);
+}
 section.home {
   position: relative;
   min-height: 100vh;
-  background-image: url(../images/about-us.png);
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,7 +35,7 @@ section.home .body h1 {
   font-size: 36px;
   margin-top: 36px;
 }
-section.home .body p{
+section.home .body p {
   font-size: 26px;
   margin-top: 36px;
   font-weight: bold;
@@ -85,14 +87,10 @@ section.home .social img {
 
 section.info {
   position: relative;
-  padding: 50px 0;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   min-height: 80vh;
-  background-image: url('../images/whoweare.png');
-  background-position: right;
-  background-color: black;
-  background-repeat: no-repeat;
 }
 
 section.info .content {
@@ -104,10 +102,10 @@ section.info .content p {
   margin: 0;
 }
 section.info .content h1 {
-  font-family: "a-space";
+  font-family: "atie";
   font-size: 72px;
 }
-[dir="rtl"] section.info .content h1  {
+[dir="rtl"] section.info .content h1 {
   font-family: "pfdin";
 }
 
@@ -115,51 +113,98 @@ section.info.vision .content h1 {
   color: var(--primary);
 }
 
-section.info .content.who-we-are h1{
-  color: #FCAC6A;
-  }
+section.info .content.who-we-are h1 {
+  color: #fcac6a;
+}
 
+.margin-t-0 {
+  margin-top: 0 !important;
+}
 
-  .margin-t-0{
+section.home .body .about-mobile-header {
+  margin-top: auto;
+}
+section.home .body .about-mobile-header h1 {
+  color: white;
+  text-align: right;
+}
 
-    margin-top: 0 !important;
-  }
-  @media (max-width: 768px) {
+section.info.vision {
+  display: flex;
+  flex-direction: column;
+}
 
-  .about-mobile-header{
+section.info.vision::before,
+section.info.vision::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--primary);
+  background: linear-gradient(
+    90deg,
+    var(--primary00) 0%,
+    var(--primary) 50%,
+    var(--primary00) 100%
+  );
+  margin: 60px 0;
+}
 
+@media (max-width: 768px) {
+  .about-mobile-header {
     height: 100%;
     justify-content: flex-end;
   }
 
-
-  section.home .body p{
-
-font-size: 16px;
-margin-top: 0px;
-text-align: left;
-
+  section.home .body p {
+    font-size: 16px;
+    margin-top: 0px;
+    text-align: left;
   }
   section.home .social {
     bottom: 1.5%;
-
   }
-  section.home .body h1{
-
+  section.home .body h1 {
     text-align: left;
   }
-  .vision #mission{
-
-    margin-top: 36px
+  .vision #mission {
+    margin-top: 36px;
   }
   section.info .content h1 {
     font-size: 36px;
   }
-  }
+}
 
-section.info .content p{
+section.info .content p {
   font-size: 18px;
-    font-weight: bold;
-  } 
+  font-weight: bold;
+}
 
+section.crew {
+  padding-bottom: 100px;
+}
+section.crew h1.title {
+  font-family: "atie";
+  font-size: 62px;
+  margin-bottom: 30px;
+}
+section.crew .member {
+  width: 100%;
+  height: 300px;
+  margin: 10px;
+  background-color: var(--primary);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+section.crew .member.lg {
+  height: 400px;
+}
 
+section.crew .row .col {
+  min-width: 200px;
+}
+section.crew .row .col .member img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -226,3 +226,7 @@ button.link::after {
 span.marker {
   background-color: #131313;
 }
+
+.blue {
+  color: var(--primary);
+}
