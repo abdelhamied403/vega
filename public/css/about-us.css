@@ -90,7 +90,6 @@ section.info {
   padding: 20px 0;
   display: flex;
   align-items: center;
-  min-height: 80vh;
 }
 
 section.info .content {
@@ -126,7 +125,9 @@ section.home .body .about-mobile-header {
 }
 section.home .body .about-mobile-header h1 {
   color: white;
-  text-align: right;
+  text-align: left;
+  max-width: max-content;
+  margin-left: auto;
 }
 
 section.info.vision {
@@ -207,4 +208,8 @@ section.crew .row .col .member img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+section.home .body {
+  margin-top: auto;
 }

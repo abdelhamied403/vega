@@ -45,6 +45,11 @@
   src: url(fonts/Abel-Regular.ttf);
 }
 
+@font-face {
+  font-family: "tiwa";
+  src: url(fonts/This\ is\ who\ we\ are.ttf);
+}
+
 :root {
   --primary: #00c1e3;
   --primary05: #00c1e31e;
@@ -53,6 +58,7 @@
   --onSurface: #ffffffbf;
   --onSurface2: #ffffffff;
   --mark: #fcac6a;
+  --bs-gutter-x: 30px;
 }
 * {
   max-width: 100%;
