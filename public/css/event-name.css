@@ -91,3 +91,7 @@ section.submission form select {
 section.submission form input[type="checkbox"] {
   width: inherit;
 }
+
+.hidden {
+  display: none;
+}
