@@ -51,7 +51,7 @@ section.submission form button {
   margin: 0;
   font-size: 16px;
 }
-section.submission form input[type="submit"] {
+section.submission .btn-main {
   background-color: var(--primary);
   color: rgb(66, 66, 66);
   border: 0 !important;
@@ -61,6 +61,7 @@ section.submission form input[type="submit"] {
   padding: 5px 20px;
   -ms-transform: skewX(-20deg);
   transform: skewX(-20deg);
+  font-size: 16px;
 }
 
 section.submission h2 {

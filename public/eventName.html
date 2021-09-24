@@ -174,10 +174,20 @@
               </div>
               <div class="col-6">
                 <div class="row hidden">
-                  <input name="" placeholder="text" type="file" />
+                  <input
+                    name=""
+                    placeholder="text"
+                    onchange="uploadImage(this)"
+                    type="file"
+                  />
                 </div>
                 <div class="row files">
-                  <input name="" placeholder="text" type="file" />
+                  <input
+                    name=""
+                    placeholder="text"
+                    onchange="uploadImage(this)"
+                    type="file"
+                  />
                 </div>
                 <div class="row">
                   <button type="button" onclick="addMoreImageFields()">
@@ -211,7 +221,11 @@
             <div class="row"></div>
           </div>
         </form>
-        <button type="button" onclick="submit();">submit registration</button>
+        <div class="row">
+          <button class="btn-main" type="button" onclick="submit();">
+            submit registration
+          </button>
+        </div>
       </div>
     </section>
 
@@ -321,39 +335,19 @@
     <script>
       let images = [];
       function addMoreImageFields() {
-        if ($(".files input").last().val() !== "") {
-          const image = $(".files input").last().prop("files")[0];
+        $(".files").append($(".hidden input").clone());
+      }
+      function uploadImage(input) {
+        const image = input.files[0];
+        const cloudName = "dtunbfky2";
+        const presetName = "ottr5jae";
 
-          // var myHeaders = new Headers();
-          // myHeaders.append("Authorization", "Client-ID 5164c3be4a45dac");
-          // myHeaders.append("Access-Control-Allow-Origin", "*");
-
-          // var formdata = new FormData();
-          // formdata.append("image", image);
-
-          // var requestOptions = {
-          //   method: "POST",
-          //   headers: myHeaders,
-          //   body: formdata,
-          // };
-
-          // fetch("https://api.imgur.com/3/upload", requestOptions)
-          //   .then((response) => response.text())
-          //   .then((result) => console.log(result))
-          //   .catch((error) => console.log("error", error));
-
-          const cloudName = "dtunbfky2";
-          const presetName = "ottr5jae";
-
-          const url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
-          const form = new FormData();
-          form.append("upload_preset", presetName);
-          form.append("tags", "browser_upload");
-          form.append("file", image);
-          axios.post(url, form).then((res) => images.push(res.data.secure_url));
-
-          $(".files").append($(".hidden input").clone());
-        }
+        const url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
+        const form = new FormData();
+        form.append("upload_preset", presetName);
+        form.append("tags", "browser_upload");
+        form.append("file", image);
+        axios.post(url, form).then((res) => images.push(res.data.secure_url));
       }
       function submit() {
         const formData = new FormData($(".form")[0]);
@@ -364,29 +358,24 @@
         const age = formData.get("age");
         const description = formData.get("description");
         const virtualSkit = formData.get("virtualSkit");
+        const to = "abdelhamied200@gmail.com";
 
-        var settings = {
-          url: "https://vegaapi.herokuapp.com/submit",
-          method: "POST",
-          timeout: 0,
-          headers: {
-            "Content-Type": "application/json",
-          },
-          data: JSON.stringify({
-            fullName,
-            artistName,
-            email,
-            country,
-            age,
-            description,
-            virtualSkit,
-            images,
-          }),
+        const data = {
+          fullName,
+          artistName,
+          email,
+          country,
+          age,
+          description,
+          virtualSkit,
+          images,
+          to,
         };
 
-        $.ajax(settings).done(function (response) {
-          console.log(response);
-        });
+        axios
+          .post("https://vegaapi.herokuapp.com/submit", data)
+          .then((res) => console.log(res.data))
+          .catch((err) => console.error(err));
       }
     </script>
   </body>
