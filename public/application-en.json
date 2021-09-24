@@ -56,7 +56,7 @@
     "integrated": "integrated structure",
     "rapid": "rapid heating up",
     "about": "about us",
-    "whoWeAre": "Who we are",
+    "whoWeAre": "Who \n are we",
     "vision": "vision",
     "mission": "mission",
     "contact": "contact us",
@@ -96,6 +96,8 @@
   "about": {
     "title": "about us",
     "header": "Who we are",
+    "header1": "Who",
+    "header2": "we are",
     "description": "Passionate local self-taught artists who specialize in costume making ( Cosplay ) and portraying different characters from various sources, The establishment is consider the extension of the artist Saud-Al-Hazzani's work which started in 2011 and later on founded Vega in 2019"
   },
   "vision": {
@@ -111,9 +113,9 @@
     "description": "Creativity is intelligence having fun"
   },
   "contact": {
-    "title": "Contact us",
+    "title": "Contact \n us",
     "message": "message us",
-    "address": "Kingdom of Saudi Arabia Riyadh-Olaya District Behind Sulaiman Alhabib Alawsat Street",
+    "address": "Kingdom of Saudi Arabia Riyadh-Olaya",
     "floor": "P.O. Box: 305303-11361 78 Str. Floor No. 1-Office No.5",
     "phone": "Phone: +966-11-4333345",
     "mobile": "Mob: +966-50-3233335",

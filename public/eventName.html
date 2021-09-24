@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/event-name.css" />
+
     <title>Vega</title>
   </head>
-  <body class="scrolling overflow-visible">
+  <body class="gallery">
     <!-- <p class="test" rel="localize[title]"></p> -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
@@ -37,7 +38,7 @@
             <li class="nav-item">
               <a
                 rel="localize[nav.home]"
-                class="nav-link active"
+                class="nav-link"
                 aria-current="page"
                 href="index.html"
                 >Home</a
@@ -59,7 +60,7 @@
             <li class="nav-item">
               <a
                 rel="localize[nav.gallery]"
-                class="nav-link"
+                class="nav-link active"
                 href="gallery.html"
                 >gallery</a
               >
@@ -108,37 +109,12 @@
         </div>
       </div>
     </nav>
+
+    <!--  -->
+
     <section class="home">
       <div class="body">
-        <div class="container">
-          <div class="row">
-            <div class="content col-md-6 col-sm-12 d-flex mt-4">
-              <div class="d-flex flex-column">
-                <div class="header-image">
-                  <img src="images/Group 1318.svg" />
-                </div>
-                <p class="header-text" rel="localize[home.heroParagraph]">
-                  special costumes created for every audience. we will provide
-                  the best experience and leave you wanting more!
-                </p>
-                <div class="actions d-flex justify-content-end">
-                  <button class="main" rel="localize[home.callUs]">
-                    call us
-                  </button>
-                  <button class="link" rel="localize[home.learnMore]">
-                    learn more
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 d-md-block ar-none"></div>
-          </div>
-        </div>
-      </div>
-      <div class="whatsapp">
-        <a target="_blank" href="https://wa.me/+201060126809"
-          ><img src="images/whatsappIcon.png" alt=""
-        /></a>
+        <h1>Event name</h1>
       </div>
       <div class="social d-flex flex-md-column">
         <a href="https://www.facebook.com/saud.hazzani" target="_blank">
@@ -153,174 +129,96 @@
       </div>
     </section>
 
-    <!--  -->
-
-    <section id="services" class="services">
-      <div class="container pd-t-100">
-        <div class="body">
-          <div class="row">
-            <h1 rel="localize[services.title]" class="text-uppercase">
-              OUR SERVICES
-            </h1>
+    <section class="submission">
+      <div class="body">
+        <h2>COSPLAYER INFORMATION</h2>
+        <form class="form" onsubmit="event.preventDefault();">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <input name="fullName" placeholder="full name" type="text" />
+              </div>
+              <div class="col-6">
+                <input
+                  name="artistName"
+                  placeholder="artist name"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input name="email" placeholder="email address" type="text" />
+              </div>
+              <div class="col-6">
+                <select name="country" id="">
+                  <option value="egypt">egypt</option>
+                  <option value="saudiArabia">saudi arabia</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input name="age" placeholder="age" type="number" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <textarea
+                  placeholder="Write a short description about your cosplay"
+                  name="description"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="col-6">
+                <div class="row hidden">
+                  <input name="" placeholder="text" type="file" />
+                </div>
+                <div class="row files">
+                  <input name="" placeholder="text" type="file" />
+                </div>
+                <div class="row">
+                  <button type="button" onclick="addMoreImageFields()">
+                    add more images
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <input
+                  name="virtualSkit"
+                  placeholder="Please insert link to virtual skit here."
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="row d-flex">
+              <input name="" placeholder="text" type="checkbox" name="" id="" />
+              <div class="col-11">
+                <p>
+                  By submitting this application, I hereby acknowledge that I
+                  have read and understood the RULES of Wild Rift Cosplay
+                  Showdown and agree to abide by all the reuqirements. I also
+                  attest that all the information in the entry form is true and
+                  correct, and consent to the cosplay being used by Riot Games
+                  MENA for the purposes of the competition.
+                </p>
+              </div>
+            </div>
+            <div class="row"></div>
           </div>
-          <div class="row py-4 services-grid">
-            <div
-              class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column hosting"
-              id="hosting"
-            >
-              <div class="service">
-                <div class="header">
-                  <img
-                    class="main"
-                    src="images/spotlight-1.svg"
-                    alt="hosting"
-                  />
-                  <img
-                    class="placeholder"
-                    src="images/spotlight.svg"
-                    alt="hosting"
-                  />
-
-                  <h3
-                    rel="localize[services.hosting.title]"
-                    class="text-uppercase"
-                  >
-                    hosting
-                  </h3>
-                </div>
-              </div>
-              <div class="body">
-                <p rel="localize[services.hosting.body]">
-                  A fantastic addition to any event is the Host, they Inspire,
-                  engage and keep your guests entertained! Many people do not
-                  immediately think of that but a host has practical benifts of
-                  time-keeping and facilitating, they also offer advantages
-                  during show delays or technical issues. On the other hand a
-                  great Host will to keep the crowd excited and engaged as they
-                  build suspense in anticipation for the main event.
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                col-lg-3 col-md-6 col-sm-12
-                d-flex
-                flex-column flex-md-column-reverse
-                judging
-              "
-              id="judging"
-            >
-              <div class="service">
-                <div class="header">
-                  <img class="main" src="images/painting-1.svg" alt="judging" />
-                  <img
-                    class="placeholder"
-                    src="images/painting.svg"
-                    alt="judging"
-                  />
-                  <h3
-                    rel="localize[services.judging.title]"
-                    class="text-uppercase"
-                  >
-                    JUDGING
-                  </h3>
-                </div>
-              </div>
-              <div class="body">
-                <p rel="localize[services.judging.body]">
-                  Cosplay requires qualified judges with experience who hold
-                  themselves to a high standard. Like any game cosplay has rules
-                  that are essential to create a safe and fair atmosphere during
-                  competitions, this will help inspire passion to a generation
-                  of Cosplayers and fans who honor the game and enjoy it
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column organizing"
-              id="organizing"
-            >
-              <div class="service">
-                <div class="header">
-                  <img
-                    class="main"
-                    src="images/structure-1.svg"
-                    alt="organizing"
-                  />
-                  <img
-                    class="placeholder"
-                    src="images/structure.svg"
-                    alt="organizing"
-                  />
-                  <h3
-                    rel="localize[services.organizing.title]"
-                    class="text-uppercase"
-                  >
-                    organizing
-                  </h3>
-                </div>
-              </div>
-              <div class="body">
-                <p rel="localize[services.organizing.body]">
-                  Our passion in Cosplay, combined with our local market
-                  expertise, enables us to provide a full scale of management
-                  services to our clients in the entertainment industry From
-                  event planning , or stage production VE team will to handle
-                  every logistical element of your event , and serve as the
-                  conceptual and visual event designer to handle all stage
-                  aspects. Therefore, we handle and orchestrate the planning,
-                  production and design elements.
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                col-lg-3 col-md-6 col-sm-12
-                d-flex
-                flex-column flex-md-column-reverse
-                museum
-              "
-              id="museum"
-            >
-              <div class="service">
-                <div class="header">
-                  <img class="main" src="images/painting-1.svg" alt="museum" />
-                  <img
-                    class="placeholder"
-                    src="images/painting.svg"
-                    alt="museum"
-                  />
-                  <h3
-                    rel="localize[services.museum.title]"
-                    class="text-uppercase"
-                  >
-                    museum
-                  </h3>
-                </div>
-              </div>
-              <div class="body">
-                <p rel="localize[services.museum.body]">
-                  A fantastic addition to any event is the Host, they Inspire,
-                  engage and keep your guests entertained! Many people do not
-                  immediately think of that but a host has practical benifts of
-                  time-keeping and facilitating, they also offer advantages
-                  during show delays or technical issues. On the other hand a
-                  great Host will to keep the crowd excited and engaged as they
-                  build suspense in anticipation for the main event.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        </form>
+        <button type="button" onclick="submit();">submit registration</button>
       </div>
     </section>
-
-    <!--  -->
 
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6" style="z-index: 2">
+          <div class="col-md-3 col-sm-6">
             <img src="images/group 75.svg" alt="vega" />
           </div>
           <div class="col-md-2 col-sm-6">
@@ -340,9 +238,7 @@
               <a rel="localize[footer.organizing]" href="/index.html#organizing"
                 >organizing</a
               >
-              <a rel="localize[footer.museum]" href="/index.html#museum"
-                >museum</a
-              >
+              <a rel="localize[footer.museum]" href="#">musuem</a>
             </div>
           </div>
           <div class="col-md-2 col-sm-6">
@@ -413,18 +309,85 @@
             </div>
           </div>
         </div>
-        <div class="row copytight">
-          <p rel="localize[footer.copyrights]">
-            All copyright reserved to Vega entertainments
-          </p>
-        </div>
       </div>
     </footer>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/jquery/js/jquery.min.js"></script>
     <script src="plugins/jquery/js/jquery.localize.min.js"></script>
     <script src="main.js"></script>
-    <script src="javascript/cart.js"></script>
-    <script src="javascript/contact.js"></script>
+    <script src="plugins/instafeed/js/instafeed.js"></script>
+    <script src="javascript/instgram.api.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      let images = [];
+      function addMoreImageFields() {
+        if ($(".files input").last().val() !== "") {
+          const image = $(".files input").last().prop("files")[0];
+
+          // var myHeaders = new Headers();
+          // myHeaders.append("Authorization", "Client-ID 5164c3be4a45dac");
+          // myHeaders.append("Access-Control-Allow-Origin", "*");
+
+          // var formdata = new FormData();
+          // formdata.append("image", image);
+
+          // var requestOptions = {
+          //   method: "POST",
+          //   headers: myHeaders,
+          //   body: formdata,
+          // };
+
+          // fetch("https://api.imgur.com/3/upload", requestOptions)
+          //   .then((response) => response.text())
+          //   .then((result) => console.log(result))
+          //   .catch((error) => console.log("error", error));
+
+          const cloudName = "dtunbfky2";
+          const presetName = "ottr5jae";
+
+          const url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
+          const form = new FormData();
+          form.append("upload_preset", presetName);
+          form.append("tags", "browser_upload");
+          form.append("file", image);
+          axios.post(url, form).then((res) => images.push(res.data.secure_url));
+
+          $(".files").append($(".hidden input").clone());
+        }
+      }
+      function submit() {
+        const formData = new FormData($(".form")[0]);
+        const fullName = formData.get("fullName");
+        const artistName = formData.get("artistName");
+        const email = formData.get("email");
+        const country = formData.get("country");
+        const age = formData.get("age");
+        const description = formData.get("description");
+        const virtualSkit = formData.get("virtualSkit");
+
+        var settings = {
+          url: "https://vegaapi.herokuapp.com/submit",
+          method: "POST",
+          timeout: 0,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          data: JSON.stringify({
+            fullName,
+            artistName,
+            email,
+            country,
+            age,
+            description,
+            virtualSkit,
+            images,
+          }),
+        };
+
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
+      }
+    </script>
   </body>
 </html>

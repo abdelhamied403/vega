@@ -45,6 +45,11 @@
   src: url(fonts/Abel-Regular.ttf);
 }
 
+@font-face {
+  font-family: "tiwa";
+  src: url(fonts/This\ is\ who\ we\ are.ttf);
+}
+
 :root {
   --primary: #00c1e3;
   --primary05: #00c1e31e;
@@ -53,6 +58,7 @@
   --onSurface: #ffffffbf;
   --onSurface2: #ffffffff;
   --mark: #fcac6a;
+  --bs-gutter-x: 30px;
 }
 * {
   max-width: 100%;
@@ -97,9 +103,8 @@ textarea {
   border-radius: 0 !important;
   outline: none !important;
   border: 2px solid var(--primary) !important;
-  background-color: transparent !important;
-  color: var(--onSurface) !important;
   padding: 5px;
+  font-family: "adam-bold";
 }
 .form-control:focus {
   box-shadow: none !important;
@@ -191,7 +196,6 @@ button {
   padding: 5px 28px;
   font-size: 24px;
   margin: 10px;
-  font-family: "bhigh";
 }
 
 @media screen and (max-width: 768px) {
@@ -207,10 +211,14 @@ button {
 button.main {
   background-color: var(--primary);
   border-radius: 15px;
+  font-family: "bhigh";
 }
 
 button.link {
   background-color: transparent;
+  font-style: italic;
+  font-family: "adam";
+  color: #ccc;
 }
 
 button.link::after {
@@ -219,4 +227,12 @@ button.link::after {
   width: 100%;
   height: 4px;
   background: var(--primary);
+}
+
+span.marker {
+  background-color: #131313;
+}
+
+.blue {
+  color: var(--primary);
 }

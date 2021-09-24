@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/Group 75.svg" alt="Vega" />
+          <img src="images/logo.jpg" alt="Vega" />
         </a>
         <button
           class="navbar-toggler"
@@ -51,7 +51,10 @@
               >
             </li>
             <li class="nav-item">
-              <a rel="localize[nav.about]" class="nav-link active" href="about-us.html"
+              <a
+                rel="localize[nav.about]"
+                class="nav-link active"
+                href="about-us.html"
                 >about</a
               >
             </li>
@@ -112,19 +115,19 @@
       <div class="body">
         <div class="container">
           <div class="row">
-            <div
-              class="
-                content
-                col-md-12 col-sm-12
-                d-flex
-                align-items-center
-                text-center
-              "
-            >
+            <div class="content col-md-12 col-sm-12 d-flex align-items-center">
               <div class="d-flex flex-column about-mobile-header">
-                <h1 rel="localize[about.header]">Who we are</h1>
-                <p rel="localize[about.description]">Passionate local self-taught artists who specialize in costume making ( Cosplay ) and portraying different characters from various sources, The establishment is consider the extension of the artist Saud-Al-Hazzani's work which started in 2011 and later on founded Vega in 2019</p>
-
+                <h1>
+                  <span rel="localize[about.header1]">Who</span><br />
+                  <span rel="localize[about.header2]">we are</span>
+                </h1>
+                <p rel="localize[about.description]">
+                  Passionate local self-taught artists who specialize in costume
+                  making ( Cosplay ) and portraying different characters from
+                  various sources, The establishment is consider the extension
+                  of the artist Saud-Al-Hazzani's work which started in 2011 and
+                  later on founded Vega in 2019
+                </p>
               </div>
             </div>
           </div>
@@ -144,21 +147,58 @@
     </section>
 
     <section class="info vision">
-      <div class="background overlay-light">
-        <img class="background-img" src="images/Group 139.png" />
-      </div>
       <div class="container">
         <div class="row d-flex" id="vision">
           <div class="col-md-5 col-sm-12">
             <div class="d-flex flex-column content">
               <h1 rel="localize[vision.header]">Vision</h1>
-              <p rel="localize[vision.description]">To become the largest and widest cultural organizaion in the world, to suit the necessities of life and the aspirations of residents.</p>
+              <p rel="localize[vision.description]">
+                To become the largest and widest cultural organizaion in the
+                world, to suit the necessities of life and the aspirations of
+                residents.
+              </p>
             </div>
           </div>
           <div class="col-md-7 col-sm-12" id="mission">
             <div class="d-flex flex-column content">
               <h1 rel="localize[mission.header]">Mission</h1>
-              <p rel="localize[mission.description]">Will strive to achieve a prominent presence in entertainment arenas of all sectors, To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people.</p>
+              <p rel="localize[mission.description]">
+                Will strive to achieve a prominent presence in entertainment
+                arenas of all sectors, To represent entertainment within our
+                dear kingdom in a way compatible with the rules of society
+                alongside entertainment and with the urge to spread the spirit
+                of initiative and encourgagement among young people.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="crew">
+      <div class="container">
+        <div class="row">
+          <h1 class="title text-center"><span class="blue">The</span> Crew</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="member lg">
+              <img src="./images/museum.jpeg" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="member">
+              <img src="./images/contact.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="member lg">
+              <img src="./images/Group 137.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="member">
+              <img src="./images/person-1.png" alt="" />
             </div>
           </div>
         </div>
@@ -166,13 +206,10 @@
     </section>
 
     <footer>
-      <div class="background">
-        <img class="background-img" src="images/Mask Group 9.svg" />
-      </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <img src="images/Group 75.svg" alt="vega" />
+          <div class="col-md-3 col-sm-6" style="z-index: 2">
+            <img src="images/group 75.svg" alt="vega" />
           </div>
           <div class="col-md-2 col-sm-6">
             <div class="d-flex flex-column">
@@ -191,7 +228,9 @@
               <a rel="localize[footer.organizing]" href="/index.html#organizing"
                 >organizing</a
               >
-              <a rel="localize[footer.museum]" href="#">musuem</a>
+              <a rel="localize[footer.museum]" href="/index.html#museum"
+                >museum</a
+              >
             </div>
           </div>
           <div class="col-md-2 col-sm-6">
@@ -261,6 +300,11 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row copytight">
+          <p rel="localize[footer.copyrights]">
+            All copyright reserved to Vega entertainments
+          </p>
         </div>
       </div>
     </footer>

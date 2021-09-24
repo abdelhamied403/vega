@@ -438,6 +438,7 @@ body {
 .header-text {
   font-size: 26px;
   line-height: normal;
+  color: #ddd;
 }
 
 @media (max-width: 768px) {
@@ -483,4 +484,14 @@ section.services .body p {
 
 [dir="rtl"] section.services .body p {
   font-family: "pfdin";
+}
+
+.whatsapp {
+  position: absolute;
+  bottom: 10%;
+  right: var(--bs-gutter-x, 0.75rem);
+  z-index: 4;
+}
+.whatsapp img {
+  width: 48px;
 }

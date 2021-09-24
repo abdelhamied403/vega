@@ -2,7 +2,7 @@
 section.home {
   position: relative;
   min-height: 100vh;
-  background-image: url('../images/Group\ 22.png');
+  background-image: url("../images/Group\ 22.png");
   background-size: cover;
   background-position: center;
 }
@@ -12,23 +12,32 @@ section.home .body {
   z-index: 3;
 }
 
-section.home .body .container{
-display: flex;
-    height: 100%;
-    flex-direction: column;
-  }
+section.home .body .container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
 
-  section.home .body .container .row{
-  min-height: 50vh;
-    margin: 0;
-  }
-
+section.home .body .container .row {
+  margin: 0;
+}
+section.home .body .container .head {
+  margin-top: 148px;
+  margin-bottom: -80px;
+}
+section.home .body .container .head h1 {
+  color: white;
+}
+section.home .body .container .head h1.phone {
+  color: var(--primary);
+}
 
 section.home .body button {
-  max-width: 110px;
+  width: 100%;
+  margin: 0;
 }
 section.home .body .content {
-min-height: auto;
+  min-height: auto;
 }
 section.home .body .home-person {
   height: calc(90vh - 100px);
@@ -40,6 +49,7 @@ section.home .body h1 {
   text-transform: uppercase;
   font-size: 36px;
 }
+
 [dir="rtl"] section.home .body h1 {
   font-family: "bustan";
 }
@@ -117,38 +127,44 @@ section.contact .body .item > * {
   margin-bottom: 0;
 }
 
-.padding-b-48{
+.padding-b-48 {
   padding-bottom: 48px;
 }
 
-.message-form input, .message-form textarea{
+.message-form {
+  width: 60%;
+  margin: 0 auto !important;
+}
+
+.message-form #message {
+  width: 100%;
+}
+
+.message-form input,
+.message-form textarea {
   margin-bottom: 10px;
-
+  background: white;
 }
-.message-form .item{
-margin-bottom: 14px;
-
+.message-form .item {
+  margin-bottom: 14px;
 }
-.message-form .item p{
-margin-bottom: 0;
-margin-left: 16px;
-}
-
-.message-form .forms-text {
-  background-color: rgba(0,0,0,0.54);
-  padding: 24px;
+.message-form .item p {
+  margin-bottom: 0;
+  margin-left: 16px;
 }
 
 @media (max-width: 768px) {
-.contact-text-mobile{
-  margin-top: 30px;
+  .contact-text-mobile {
+    margin-top: 30px;
+  }
+  section.home {
+    background-size: 315%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+  }
+}
 
-}
-section.home {
- 
-  background-size: 315%;
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-  background-position-x: 20%;
-}
+.reach {
+  margin-top: 40px;
 }
