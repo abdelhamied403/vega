@@ -131,15 +131,21 @@
 
     <section class="submission">
       <div class="body">
-        <h2>COSPLAYER INFORMATION</h2>
+        <h2 rel="localize[compete.cosplayer_info]">COSPLAYER INFORMATION</h2>
         <form class="form" onsubmit="event.preventDefault();">
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-6">
-                <input name="fullName" placeholder="full name" type="text" />
+                <input
+                  rel="localize[compete.form.full_name]"
+                  name="fullName"
+                  placeholder="full name"
+                  type="text"
+                />
               </div>
               <div class="col-12 col-md-6">
                 <input
+                  rel="localize[compete.form.artist_name]"
                   name="artistName"
                   placeholder="artist name"
                   type="text"
@@ -148,7 +154,12 @@
             </div>
             <div class="row">
               <div class="col-12 col-md-6">
-                <input name="email" placeholder="email address" type="text" />
+                <input
+                  name="email"
+                  rel="localize[compete.form.email]"
+                  placeholder="email address"
+                  type="email"
+                />
               </div>
               <div class="col-12 col-md-6">
                 <select name="country" id="">
@@ -472,7 +483,12 @@
             </div>
             <div class="row">
               <div class="col-12 col-md-6">
-                <input name="age" placeholder="age" type="number" />
+                <input
+                  name="age"
+                  placeholder="age"
+                  type="number"
+                  rel="localize[compete.form.age]"
+                />
               </div>
             </div>
             <div class="row">
@@ -480,6 +496,7 @@
                 <textarea
                   placeholder="Write a short description about your cosplay"
                   name="description"
+                  rel="localize[compete.form.description]"
                   id=""
                   cols="30"
                   rows="10"
@@ -489,6 +506,7 @@
                 <div class="row hidden">
                   <input
                     name=""
+                    rel="localize[compete.form.cosplayer_info]"
                     placeholder="text"
                     onchange="uploadImage(this)"
                     type="file"
@@ -497,13 +515,18 @@
                 <div class="row files">
                   <input
                     name=""
+                    rel="localize[compete.form.cosplayer_info]"
                     placeholder="text"
                     onchange="uploadImage(this)"
                     type="file"
                   />
                 </div>
                 <div class="row">
-                  <button type="button" onclick="addMoreImageFields()">
+                  <button
+                    type="button"
+                    onclick="addMoreImageFields()"
+                    rel="localize[compete.form.add_more_images]"
+                  >
                     add more images
                   </button>
                 </div>
@@ -513,6 +536,7 @@
               <div class="col-12">
                 <input
                   name="virtualSkit"
+                  rel="localize[compete.form.vskit]"
                   placeholder="Please insert link to virtual skit here."
                   type="text"
                 />
@@ -521,7 +545,7 @@
             <div class="row d-flex">
               <input name="" placeholder="text" type="checkbox" name="" id="" />
               <div class="col-11">
-                <p>
+                <p rel="localize[compete.form.rules]">
                   By submitting this application, I hereby acknowledge that I
                   have read and understood the RULES of Wild Rift Cosplay
                   Showdown and agree to abide by all the reuqirements. I also
@@ -535,7 +559,12 @@
           </div>
         </form>
         <div class="row">
-          <button class="btn-main" type="button" onclick="submit();">
+          <button
+            class="btn-main"
+            type="button"
+            onclick="submit();"
+            rel="localize[compete.form.submit]"
+          >
             submit registration
           </button>
         </div>
