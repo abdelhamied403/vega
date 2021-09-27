@@ -236,3 +236,8 @@ span.marker {
 .blue {
   color: var(--primary);
 }
+
+.modal {
+  color: black;
+  font-family: "bhigh";
+}

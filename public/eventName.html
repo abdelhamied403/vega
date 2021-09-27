@@ -325,6 +325,32 @@
         </div>
       </div>
     </footer>
+
+    <div
+      class="modal fade"
+      id="successDialog"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="successDialogTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Success</h5>
+          </div>
+          <div class="modal-body">
+            you have submitted your cosplay successfully.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/jquery/js/jquery.min.js"></script>
     <script src="plugins/jquery/js/jquery.localize.min.js"></script>
@@ -359,6 +385,7 @@
         const description = formData.get("description");
         const virtualSkit = formData.get("virtualSkit");
         const to = "abdelhamied200@gmail.com";
+        // const to = "Saud@vega.com.sa";
 
         const data = {
           fullName,
@@ -374,7 +401,10 @@
 
         axios
           .post("https://vegaapi.herokuapp.com/submit", data)
-          .then((res) => console.log(res.data))
+          .then((res) => {
+            console.log(res.data);
+            $("#successDialog").modal("show");
+          })
           .catch((err) => console.error(err));
       }
     </script>
