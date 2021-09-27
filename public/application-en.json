@@ -93,6 +93,21 @@
       "description": "Only takes 5 minutes and enjoy the process to create any 3D print"
     }
   },
+  "compete": {
+    "title": "compete",
+    "cosplayer_info": "cosplayer information",
+    "form": {
+      "full_name": "full name",
+      "artist_name": "artist name",
+      "email": "email address",
+      "age": "age",
+      "description": "Write a short description about your cosplay",
+      "add_more_images": "add more images",
+      "vskit": "Please insert link to virtual skit here.",
+      "rules": "By submitting this application, I hereby acknowledge that I have read and understood the RULES of Wild Rift Cosplay Showdown and agree to abide by all the reuqirements. I also attest that all the information in the entry form is true and correct, and consent to the cosplay being used by Riot Games MENA for the purposes of the competition.",
+      "submit": "submit registration"
+    }
+  },
   "about": {
     "title": "about us",
     "header": "Who we are",

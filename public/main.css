@@ -236,3 +236,11 @@ span.marker {
 .blue {
   color: var(--primary);
 }
+
+.modal,
+select,
+input,
+textarea {
+  color: black;
+  font-family: "bhigh";
+}
