@@ -237,7 +237,10 @@ span.marker {
   color: var(--primary);
 }
 
-.modal {
+.modal,
+select,
+input,
+textarea {
   color: black;
   font-family: "bhigh";
 }
