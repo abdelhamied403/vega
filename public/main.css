@@ -210,14 +210,12 @@ button {
 }
 
 button.main {
-  background-color:  var(--primary);
+  background-color: var(--primary);
   border-radius: 15px;
   font-family: "bhigh";
-
 }
-button.main:hover{
-  background: linear-gradient(to right, var(--primary), #1089A1);
-
+button.main:hover {
+  background: linear-gradient(to right, var(--primary), #1089a1);
 }
 
 button.link {
@@ -228,10 +226,8 @@ button.link {
   font-weight: 600;
 }
 
-
 button.link:hover {
-color: white;
-
+  color: white;
 }
 button.link::after {
   content: "";
@@ -256,6 +252,24 @@ textarea {
   color: black;
   font-family: "bhigh";
 }
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
   color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (min-width: 900px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
 }
