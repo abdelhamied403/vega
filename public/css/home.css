@@ -420,7 +420,7 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-.header-image{
+.header-image {
   margin-top: 20vh;
 }
 .header-image img {
@@ -496,4 +496,10 @@ section.services .body p {
 }
 .whatsapp img {
   width: 48px;
+}
+
+section.services .body a {
+  font-family: "pfdin";
+  color: var(--primary);
+  font-weight: bold;
 }

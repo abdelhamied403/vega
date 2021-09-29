@@ -1,6 +1,6 @@
 /* ********************************************************** */
 body {
-  background-image: url(../images/about-us.jpg);
+  background-image: url("../images/Homepage\(Editable\ Font\)\ \(1\)-03.png");
 }
 section.home {
   position: relative;
@@ -213,8 +213,19 @@ section.crew .row .col .member img {
 section.home .body {
   margin-top: auto;
 }
-.about-header h1{
-
-  font-family: 'atie' !important;
+.about-header h1 {
+  font-family: "atie" !important;
   text-transform: lowercase !important;
+}
+
+section.crew {
+  position: relative;
+  z-index: 99;
+}
+
+img.bottomLayer {
+  position: absolute;
+  top: 145px;
+  left: 20%;
+  z-index: 1;
 }
