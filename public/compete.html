@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.jpg" alt="Vega" />
+          <img src="images/logo.png" alt="Vega" />
         </a>
         <button
           class="navbar-toggler"
@@ -45,22 +45,22 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                rel="localize[nav.printer]"
-                class="nav-link"
-                href="printer.html"
-                >Printer</a
-              >
-            </li>
-            <li class="nav-item">
               <a rel="localize[nav.about]" class="nav-link" href="about-us.html"
                 >about</a
               >
             </li>
             <li class="nav-item">
               <a
-                rel="localize[nav.gallery]"
+                rel="localize[nav.compete]"
                 class="nav-link active"
+                href="compete.html"
+                >Compete</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                rel="localize[nav.gallery]"
+                class="nav-link "
                 href="gallery.html"
                 >gallery</a
               >
@@ -112,11 +112,15 @@
 
     <!--  -->
 
-    <section class="home">
-      <div class="body">
+    <section class="home compete">
+      <div class="body text-center">
+        <div class="container">
+          <div class="row">
         <h1 rel="localize[compete.title]">compete</h1>
       </div>
-      <div class="social d-flex flex-md-column">
+    </div>
+  </div>
+      <!-- <div class="social d-flex flex-md-column">
         <a href="https://www.facebook.com/saud.hazzani" target="_blank">
           <img src="images/facebook (9).svg" alt="facebook" />
         </a>
@@ -126,42 +130,58 @@
         <a href="https://www.instagram.com/vegacosplay/" target="_blank">
           <img src="images/instagram (9).svg" alt="instagram" />
         </a>
-      </div>
+      </div> -->
     </section>
 
     <section class="submission">
       <div class="body">
-        <h2 rel="localize[compete.cosplayer_info]">COSPLAYER INFORMATION</h2>
+    
         <form class="form" onsubmit="event.preventDefault();">
           <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 submission-body">
+            <p>
+              Calling all Cosplayers!
+Now is the time to Rise to the Challenge
+Put on your Helmets, Polish your Armor. 
+Get ready for battle, this is what you have
+ been waiting for and now it is finally here 
+<br>
+<br>
+So Join us and show everyone your skills and training. 
+ Register Now
+            
+            </p>            <h2 rel="localize[compete.cosplayer_info]">COSPLAYER INFORMATION</h2>
+           
+            </div></div>
+              <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
                 <input
                   rel="localize[compete.form.full_name]"
                   name="fullName"
-                  placeholder="full name"
+                  placeholder="Full Name"
                   type="text"
                 />
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-8">
                 <input
                   rel="localize[compete.form.artist_name]"
                   name="artistName"
-                  placeholder="artist name"
+                  placeholder="Artist Name"
                   type="text"
                 />
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 col-md-6">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
                 <input
                   name="email"
                   rel="localize[compete.form.email]"
-                  placeholder="email address"
+                  placeholder="Email Address"
                   type="email"
                 />
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-8">
                 <select name="country" id="">
                   <option value="Saudi Arabia">Saudi Arabia</option>
                   <option value="Afghanistan">Afghanistan</option>
@@ -481,18 +501,18 @@
                 </select>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 col-md-6">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
                 <input
                   name="age"
-                  placeholder="age"
+                  placeholder="Age"
                   type="number"
                   rel="localize[compete.form.age]"
                 />
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 col-md-6">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
                 <textarea
                   placeholder="Write a short description about your cosplay"
                   name="description"
@@ -502,7 +522,7 @@
                   rows="10"
                 ></textarea>
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-8">
                 <div class="row hidden">
                   <input
                     name=""
@@ -532,8 +552,8 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8">
                 <input
                   name="virtualSkit"
                   rel="localize[compete.form.vskit]"
@@ -542,23 +562,18 @@
                 />
               </div>
             </div>
-            <div class="row d-flex">
+            <div class="row d-flex justify-content-center">
               <input name="" placeholder="text" type="checkbox" name="" id="" />
-              <div class="col-11">
+              <div class="col-12 col-md-8">
                 <p rel="localize[compete.form.rules]">
-                  By submitting this application, I hereby acknowledge that I
-                  have read and understood the RULES of Wild Rift Cosplay
-                  Showdown and agree to abide by all the reuqirements. I also
-                  attest that all the information in the entry form is true and
-                  correct, and consent to the cosplay being used by Riot Games
-                  MENA for the purposes of the competition.
+                  By submitting this application, I hereby acknowledge that I have read and understood the Competition Rules and agree to abide by all the requirements.  I also attest that all the information in the entry form is true and correct, and consent to the Cosplay being used by Vega Entertainment  for the purposes of the competition.
                 </p>
               </div>
             </div>
-            <div class="row"></div>
+            <div class="row justify-content-center"></div>
           </div>
         </form>
-        <div class="row">
+        <div class="row justify-content-center">
           <button
             class="btn-main"
             type="button"
@@ -574,8 +589,8 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <img src="images/group 75.svg" alt="vega" />
+          <div class="col-md-3 col-sm-6 footer-logo">
+            <img src="images/logo.png" alt="vega" />
           </div>
           <div class="col-md-2 col-sm-6">
             <div class="d-flex flex-column">
@@ -597,27 +612,7 @@
               <a rel="localize[footer.museum]" href="#">musuem</a>
             </div>
           </div>
-          <div class="col-md-2 col-sm-6">
-            <div class="d-flex flex-column">
-              <a
-                rel="localize[footer.printer]"
-                class="header"
-                href="/printer.html"
-                >printer</a
-              >
-              <a rel="localize[footer.printerHd]" href="/printer.html#print"
-                >print</a
-              >
-              <a
-                rel="localize[footer.integrated]"
-                href="/printer.html#structure"
-                >integrated structure</a
-              >
-              <a rel="localize[footer.rapid]" href="/printer.html#heating"
-                >rapid heating up</a
-              >
-            </div>
-          </div>
+      
           <div class="col-md-2 col-sm-6">
             <div class="d-flex flex-column">
               <a
@@ -721,7 +716,7 @@
         const age = formData.get("age");
         const description = formData.get("description");
         const virtualSkit = formData.get("virtualSkit");
-        const to = "abdelhamied200@gmail.com";
+        const to = "sm@vega.com.sa";
         // const to = "Saud@vega.com.sa";
 
         const data = {

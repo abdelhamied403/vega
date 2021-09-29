@@ -38,6 +38,7 @@ section.home .body h1 {
   font-family: "pfdin";
   text-transform: uppercase;
   font-size: 48px;
+  padding-left: 0px;
 }
 
 [dir="rtl"] section.submission * {
@@ -69,7 +70,7 @@ section.submission h2 {
   font-family: "a-space";
   text-transform: uppercase;
   font-size: 48px;
-  text-align: center;
+  text-align: left;
 }
 
 section.submission form input:not([type="submit"]),
@@ -80,9 +81,11 @@ section.submission form select {
   border: 0 !important;
   border-bottom: 2px solid var(--primary) !important;
   padding: 5px 10px;
-  background-color: #e7e8eb;
+  background-color: #e7e8eb !important;
   color: black;
   max-height: 100px;
+  font-weight: 900;
+    text-transform: uppercase;
 }
 
 section.submission form input:not([type="submit"]),
@@ -98,8 +101,48 @@ section.submission form input[type="checkbox"] {
   display: none;
 }
 
+
+
+.compete .body {
+
+width: 100%;
+margin: auto !important;
+margin-right: 0px;
+}
+.compete .body h1{
+font-size: 72px !important;
+font-family: "a-space" !important;
+}
+
+section.home{
+  background-position: center;
+
+}
+
 @media screen and (max-width: 768px) {
   section.submission h2 {
     font-size: 32px;
   }
+  .compete .body h1{
+    font-size: 30px !important;
+  }
+}
+
+section.home.compete{
+
+  min-height: 60vh;
+  background-image: url('../images/compete.jpg');
+}
+
+
+.form .col-12.col-md-8 {
+  margin-bottom: 14px;
+}
+
+.submission-body p{
+
+  text-align: center;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }

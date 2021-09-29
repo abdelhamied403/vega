@@ -13,6 +13,7 @@
     "home": "Home",
     "printer": "3d printers",
     "about": "about us",
+    "compete":"Compete",
     "gallery": "gallery",
     "contact": "contact us",
     "lang": "ع"
@@ -23,7 +24,7 @@
     "services": "services",
     "callUs": "Call Us",
     "learnMore": "Learn More",
-    "heroParagraph": "special costumes created for every audience. we will provide the best experience and leave you wanting more!"
+    "heroParagraph": "Special costumes created for every audience. we will provide the best experience and leave you wanting more!"
   },
   "services": {
     "title": "Our services",
@@ -104,7 +105,7 @@
       "description": "Write a short description about your cosplay",
       "add_more_images": "add more images",
       "vskit": "Please insert link to virtual skit here.",
-      "rules": "By submitting this application, I hereby acknowledge that I have read and understood the RULES of Wild Rift Cosplay Showdown and agree to abide by all the reuqirements. I also attest that all the information in the entry form is true and correct, and consent to the cosplay being used by Riot Games MENA for the purposes of the competition.",
+      "rules": "By submitting this application, I hereby acknowledge that I have read and understood the Competition Rules and agree to abide by all the requirements.  I also attest that all the information in the entry form is true and correct, and consent to the Cosplay being used by Vega Entertainment  for the purposes of the competition.",
       "submit": "submit registration"
     }
   },
@@ -113,7 +114,7 @@
     "header": "Who we are",
     "header1": "Who",
     "header2": "we are",
-    "description": "Passionate local self-taught artists who specialize in costume making ( Cosplay ) and portraying different characters from various sources, The establishment is consider the extension of the artist Saud-Al-Hazzani's work which started in 2011 and later on founded Vega in 2019"
+    "description": "Vega Entertainment is a Events & Exhibition Management Co. founded in 2019 Unique since we Design, Create, Produce Costumes that we are proud of to show in our Events. With a group of Saudi professionals focused on delivering Excellence, Combined with our local market expertise We  provide a full scale of management services in a way that makes any event come to life."
   },
   "vision": {
     "header": "Vision",

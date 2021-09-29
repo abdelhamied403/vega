@@ -3,7 +3,6 @@
 section.home {
   position: relative;
   min-height: 100vh;
-  background-image: url(../images/homebg.png);
   background-position-x: -150px;
   background-size: cover;
   background-position-y: center;
@@ -421,7 +420,9 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-
+.header-image{
+  margin-top: 20vh;
+}
 .header-image img {
   width: 90%;
 }
@@ -438,7 +439,8 @@ body {
 .header-text {
   font-size: 26px;
   line-height: normal;
-  color: #ddd;
+  color: #fff;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -487,7 +489,7 @@ section.services .body p {
 }
 
 .whatsapp {
-  position: absolute;
+  position: fixed;
   bottom: 10%;
   right: var(--bs-gutter-x, 0.75rem);
   z-index: 4;

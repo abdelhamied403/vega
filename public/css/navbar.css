@@ -12,11 +12,10 @@
   }
 }
 .navbar img {
-  height: 80px;
-  width: 180px;
+  height: 72px;
   object-fit: contain;
   object-position: left;
-  padding: 10px;
+  padding: 0px;
 }
 .navbar .nav-item {
   text-transform: uppercase;

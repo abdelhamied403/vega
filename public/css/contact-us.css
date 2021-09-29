@@ -22,7 +22,7 @@ section.home .body .container .row {
   margin: 0;
 }
 section.home .body .container .head {
-  margin-top: 148px;
+  margin-top: 25vh;
   margin-bottom: -80px;
 }
 section.home .body .container .head h1 {
@@ -167,4 +167,16 @@ section.contact .body .item > * {
 
 .reach {
   margin-top: 40px;
+}
+
+
+.contact-title{
+  margin-top: 10vh;
+}
+
+
+section.home.contact-us {
+
+  background-position: center 40%;
+
 }

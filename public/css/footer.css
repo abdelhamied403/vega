@@ -2,6 +2,7 @@ footer {
   position: relative;
   min-height: 300px;
   padding: 30px 0;
+  padding-bottom: 0;
 }
 footer .background-img {
   object-position: right bottom;
@@ -40,12 +41,18 @@ footer {
 }
 
 footer .container {
-  margin-top: 80px;
+  margin-top: 36px;
 }
 
 footer .copytight {
-  margin: 40px 0;
+  margin-top: 24px;
 }
 footer .copytight p {
   text-align: center;
+}
+footer img {
+  max-width: 172px;
+}
+footer .footer-logo img {
+  margin-top: 18px;
 }

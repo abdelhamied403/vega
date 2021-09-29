@@ -213,3 +213,8 @@ section.crew .row .col .member img {
 section.home .body {
   margin-top: auto;
 }
+.about-header h1{
+
+  font-family: 'atie' !important;
+  text-transform: lowercase !important;
+}
