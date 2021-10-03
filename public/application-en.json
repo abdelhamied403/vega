@@ -96,6 +96,9 @@
   },
   "compete": {
     "title": "compete",
+    "description": "Calling all Cosplayers! Now is the time to Rise to the Challenge Put on your Helmets, Polish your Armor. Get ready for battle, this is what you have been waiting for and now it is finally here",
+    "joinMessage": "So Join us and show everyone your skills and training.",
+    "join": "Register Now!",
     "cosplayer_info": "cosplayer information",
     "form": {
       "full_name": "full name",
@@ -114,7 +117,7 @@
     "header": "Who we are",
     "header1": "Who",
     "header2": "we are",
-    "description": "Vega Entertainment is a Events & Exhibition Management Co. founded in 2019 Unique since we Design, Create, Produce Costumes that we are proud of to show in our Events. With a group of Saudi professionals focused on delivering Excellence, Combined with our local market expertise We  provide a full scale of management services in a way that makes any event come to life."
+    "description": "Vega Entertainment is a Events & Exhibition Management Co. founded in 2019 Unique since we Design, Create, Produce Costumes that we are proud of to show in our Events. With a group of Saudi professionals focused on delivering Excellence, Combined with our local market expertise We provide a full scale of management services in a way that makes any event come to life."
   },
   "vision": {
     "header": "Vision",
@@ -122,7 +125,7 @@
   },
   "mission": {
     "header": "Mission",
-    "description": "Vega Entertainment strives to achieve a prominent presence in entertainment arenas of all sectors To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people."
+    "description": "Will strive to achieve a prominent presence in entertainment arenas of all sectors, To represent entertainment within our dear kingdom in a way compatible with the rules of society alongside entertainment and with the urge to spread the spirit of initiative and encourgagement among young people."
   },
   "gallery": {
     "title": "Gallery",

@@ -228,6 +228,7 @@ img.bottomLayer {
   top: 145px;
   left: 20%;
   z-index: 1;
+  width: 60%;
 }
 
 @media screen and (max-width: 900px) {
@@ -237,5 +238,6 @@ img.bottomLayer {
   img.bottomLayer {
     right: 0;
     left: auto;
+    width: 100%;
   }
 }
