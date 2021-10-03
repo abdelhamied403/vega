@@ -71,7 +71,7 @@ section.home .body h4 {
 }
 section.home .social {
   position: absolute;
-  bottom: 10%;
+  bottom: 0;
   left: var(--bs-gutter-x, 0.75rem);
   z-index: 4;
 }

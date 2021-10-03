@@ -13,7 +13,7 @@ section.submission {
 
 section.home .social {
   position: absolute;
-  bottom: 10%;
+  bottom: 0;
   left: var(--bs-gutter-x, 0.75rem);
   z-index: 4;
 }
@@ -85,7 +85,7 @@ section.submission form select {
   color: black;
   max-height: 100px;
   font-weight: 900;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 section.submission form input:not([type="submit"]),
@@ -101,46 +101,39 @@ section.submission form input[type="checkbox"] {
   display: none;
 }
 
-
-
 .compete .body {
-
-width: 100%;
-margin: auto !important;
-margin-right: 0px;
+  width: 100%;
+  margin: auto !important;
+  margin-right: 0px;
 }
-.compete .body h1{
-font-size: 72px !important;
-font-family: "a-space" !important;
+.compete .body h1 {
+  font-size: 72px !important;
+  font-family: "a-space" !important;
 }
 
-section.home{
+section.home {
   background-position: center;
-
 }
 
 @media screen and (max-width: 768px) {
   section.submission h2 {
     font-size: 32px;
   }
-  .compete .body h1{
+  .compete .body h1 {
     font-size: 30px !important;
   }
 }
 
-section.home.compete{
-
+section.home.compete {
   min-height: 60vh;
-  background-image: url('../images/compete.jpg');
+  background-image: url("../images/compete.jpg");
 }
-
 
 .form .col-12.col-md-8 {
   margin-bottom: 14px;
 }
 
-.submission-body p{
-
+.submission-body p {
   text-align: center;
   font-size: 18px;
   margin-top: 24px;

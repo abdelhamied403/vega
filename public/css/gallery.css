@@ -5,7 +5,7 @@ section.home {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../images/Group\ 139.png');
+  background-image: url("../images/Group\ 139.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@ section.home .body .content {
   min-height: auto;
 }
 section.home .body .home-person {
-  height:auto;
+  height: auto;
   object-fit: cover;
 }
 section.home .body h1 {
@@ -60,7 +60,7 @@ section.home .body h4 {
 
 section.home .social {
   position: absolute;
-  bottom: 10%;
+  bottom: 0;
   left: var(--bs-gutter-x, 0.75rem);
   z-index: 4;
 }
@@ -102,8 +102,6 @@ section.gallery .image-gallery img {
   object-position: center;
 }
 
-
-.gallery .home h4{
-font-size: 24px !important;
-
+.gallery .home h4 {
+  font-size: 24px !important;
 }
