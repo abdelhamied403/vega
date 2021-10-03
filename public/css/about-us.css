@@ -226,7 +226,7 @@ section.crew {
 img.bottomLayer {
   position: absolute;
   top: 145px;
-  left: 0;
+  left: 20%;
   z-index: 1;
 }
 
