@@ -71,7 +71,7 @@ section.home .body h4 {
 }
 section.home .social {
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
   left: var(--bs-gutter-x, 0.75rem);
   z-index: 4;
 }
@@ -163,7 +163,7 @@ section.info.vision::after {
     text-align: left;
   }
   section.home .social {
-    bottom: 1.5%;
+    bottom: -20px;
   }
   section.home .body h1 {
     text-align: left;
@@ -226,12 +226,16 @@ section.crew {
 img.bottomLayer {
   position: absolute;
   top: 145px;
-  left: 20%;
+  left: 0;
   z-index: 1;
 }
 
 @media screen and (max-width: 900px) {
   .about-mobile-header h1 {
     margin-left: 0 !important;
+  }
+  img.bottomLayer {
+    right: 0;
+    left: auto;
   }
 }
